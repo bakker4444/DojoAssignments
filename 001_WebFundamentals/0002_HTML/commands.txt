@@ -1,0 +1,14 @@
+click terminal icon
+mkdir test
+touch index.html
+touch styles.css
+touch command.txt
+cp index.html index_2.html
+rm styles.css
+cd ..
+mkdir destination
+mv test/index_2.html destination/.
+ls test/
+ls destination/
+rm -r destination/
+
