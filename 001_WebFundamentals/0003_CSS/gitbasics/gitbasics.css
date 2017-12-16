@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    padding: 10px;
+    background-color: #DCE0D3;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+}
+.headercontents {
+    background-color: #00B6AF;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display:grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.headleft img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.headleft p {
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.headright {
+    align-self: center;
+    text-align: right;
+    padding-right: 5px;
+}
+.headright a{
+    margin: 0px 5px 0px 5px;
+}
+.headright a:link, .headright a:visited, .headright a:hover, .headright a:active {
+    color: #FBFEFD;
+}
+
+
+.maincontents {
+    display: grid;
+    grid-template-columns: 25% auto;
+    background-color: #FFE499;
+    grid-column-gap: 40px;
+    padding: 20px 20px 20px 20px;
+}
+.maincontents p {
+    font-size: 17px;
+    padding: 5px 10px ;
+}
+.footercontents {
+    background-color: #00B6AF;
+    padding: 20px 0px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.mainright {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+}
+.mainrightrow1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+
+}
+.mainrightrow2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 40px;
+
+}
+.maintextcolorandbackground {
+    color: #A7B5AD;
+    background-color: #0A4043;
+    padding: 10px;
+
+}
+.coloredtext {
+    color: #22DCCB;
+}
+h3{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+h4{
+    padding: 0px 5px 5px 0px;
+}
+.maincontents p {
+    padding: 10px;
+}
+.mainrightrow1width {
+    width: 205px;
+    height: 190px;
+}
+.mainrightrow2width {
+    height: 150px;
+    width: 337px;
+}
+.mainrightrow2seond {
+    justify-self: end;
+}
+.mainrightrow3 p{
+    padding-right: 30px;
+}
