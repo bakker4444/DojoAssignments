@@ -1,4 +1,4 @@
-### CSS / Periodic Table Assignment
+### CSS / "Periodic Table" Assignment
 <br />
 submit files:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;periodictable.html<br />

@@ -1,4 +1,4 @@
-## CSS / Simply Responsive Assignment<br />
+## CSS / "Simply Responsive" Assignment<br />
 <br />
 Submit files:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;simplyresponsive.html<br />

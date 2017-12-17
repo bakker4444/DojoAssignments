@@ -1,10 +1,10 @@
-CSS / 'gitbasic' Assignment
-
-submit files:
-    gitbasics.html
-    gitbasics.css
-    (used CSS grid system)
-
-verified by https://validator.w3.org/
-
-no error found
+## CSS / 'gitbasic' Assignment<br />
+<br />
+submit files:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;gitbasics.html
+&nbsp;&nbsp;&nbsp;&nbsp;gitbasics.css
+&nbsp;&nbsp;&nbsp;&nbsp;(used CSS grid system)
+<br />
+verified by https://validator.w3.org/<br />
+<br />
+no error found<br />

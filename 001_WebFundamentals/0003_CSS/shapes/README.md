@@ -1,4 +1,4 @@
-### CSS / shapes Assignment
+### CSS / "Shapes" Assignment
 <br />
 submit files:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;shapes.html<br />
