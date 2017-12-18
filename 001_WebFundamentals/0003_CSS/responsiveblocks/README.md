@@ -1,4 +1,4 @@
-### CSS / "Responsive Blocks" Assignment
+## CSS / "Responsive Blocks" Assignment
 
 ----
 
