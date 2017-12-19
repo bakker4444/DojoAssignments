@@ -13,7 +13,7 @@ function numbersOnly(obj) {                     // Using New array inside of fun
 var newArray1 = numbersOnly([1, "apple", -3, "orange", 0.5]);
 console.log(newArray1);
 
-function numbersOnlyNotUsingNewArray(obj){      // Using input objects array
+function numbersRemoveNotUsingNewArray(obj){      // Using input objects array
     var j = 0;
     var numbercount = 0;
     for (var i = 0; i < obj.length; i++){
@@ -29,5 +29,22 @@ function numbersOnlyNotUsingNewArray(obj){      // Using input objects array
     return obj;
 }
 
-var newArray2 = numbersOnlyNotUsingNewArray([1, "apple", -3, "orange", 0.5]);
+var newArray2 = numbersRemoveNotUsingNewArray([1, "apple", -3, "orange", 0.5]);
 console.log(newArray2);
+
+/************** (cf) Good Example Code
+
+function numbersOnlyRemove(arr){
+    for (var i = 0; i < arr.length; i++) {
+        while(typeof(arr[i]) != "number"){
+            for (var k = i; k < arr.length; k++) {
+                arr[k] = arr[k+1]
+            }
+            arr.pop()
+        }
+    }
+    console.log(arr);
+}
+numbersOnlyRemove([1, "apple", -3, "orange", 0.5])
+
+**********************/
