@@ -1,0 +1,14 @@
+* {
+    /* margin: 0px;
+    padding: 0px;
+    border: 1px solid red; */
+}
+.wrapper {
+    padding: 30px;
+    width: 460px;
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: 100px;
+}
