@@ -1,0 +1,56 @@
+* {
+    /* border: 1px solid red; */
+}
+
+h1, div {
+    text-align: center;
+}
+input, p{
+    display: inline-block;
+}
+input {
+    margin: 0px 40px;
+    font-size: 20px;
+}
+div {
+    height: 350px;
+    border-bottom: 5px solid blue;
+    margin: 40px;
+}
+.example {
+    background-color: silver;
+    width: 500px;
+    padding: 20px;
+}
+.textred {
+    color : red;
+}
+.textwhite {
+    color: white;
+}
+.bgcolorblue {
+    background-color: blue;
+}
+.fontsize30 {
+    font-size: 30px;
+    width: initial;
+}
+.bgyellow {
+    background-color: yellow;
+}
+.bggreen {
+    background-color: green;
+}
+.bgpurple {
+    background-color: purple;
+}
+.bgorange {
+    background-color: orange;
+}
+#textbox1 {
+    width: 500px;
+    text-align: center;
+}
+.textblue {
+    color: blue;
+}
