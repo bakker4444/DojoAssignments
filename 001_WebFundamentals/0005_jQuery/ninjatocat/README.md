@@ -4,7 +4,7 @@
 
 Individual image changes when image clicked.
 (Total three images rotation.)
-image source: http://assets-production.rovio.com/s3fs-public/hatchlings_0.jpg
+image source: <http://assets-production.rovio.com/s3fs-public/hatchlings_0.jpg>
 
 **submit files:**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;ninjatocat.html<br />
