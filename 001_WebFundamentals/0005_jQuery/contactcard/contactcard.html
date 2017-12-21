@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Card Assignment</title>
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script> 
+    <link rel="stylesheet" href="contactcard.css">
+    <script src="contactcard.js"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <form class="infoform" action="#">
+            <div class="fnamerow pad10">
+                <label for="fname">First Name:</label>
+                <input type="text" name="firstname" id="fname">        
+            </div>
+            <div class="lnamerow pad10">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lastname" id="lname">
+            </div>
+            <div class="descrow pad10">
+                <textarea name="description" id="desc" cols="50" rows="10" placeholder="Enter Descriptions"></textarea>
+            </div>
+            <div class="submitrow">
+                <input class="pad10" type="submit" value="Add User">
+            </div>
+            
+        </form>
+        <div class="shownamecard">
+        </div>
+    </div>
+</body>
+</html>
