@@ -34,14 +34,19 @@ label {
     text-align: center;
 }
 .namecard {
+    display: block;
     border: 1px solid black;
     width: 300px;
     text-align: center;
-    vertical-align: bottom;
+    vertical-align: top;
     padding: 20px;
     margin: 20px;
+    border-radius: 10px;
 }
 .shownamecard{
     display: inline-block;
     vertical-align: top;
+}
+h4 {
+    display: none;
 }
