@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users Assignment</title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="users.css">
+    <script src="users.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <td id="tablefname">First Name: </td>
+                    <td id="tablelname">Last Name: </td>
+                </tr>
+                <tr>
+                    <td id="tableemail">Email Address: </td>
+                    <td id="tablecontactnum">Contact #: </td>
+                </tr>
+            </thead>
+        </table>
+
+        <form id="formid" action="#">
+            <h1>Add User</h1>
+            <div class="rowcommon row1">
+                <label for="fname">First Name:</label>
+                <input class="width250" type="text" name="first_name" id="fname">    
+            </div>
+            <div class="rowcommon row2">
+                <label for="lname">Last Name:</label>
+                <input class="width250" type="text" name="last_name" id="lname">
+            </div>
+            <div class="rowcommon row3">
+                <label for="email">Email:</label>
+                <input class="width250" type="email" name="email" id="email">    
+            </div>
+            <div class="rowcommon row4">
+                <label for="cnumber">Contact No.:</label>
+                <input class="width250" type="text" name="contact_number" id="cnumber">        
+            </div>
+            <div class="rowcommon row5">
+                <input class="rowcommon submitbutton" type="submit" value="Add User">
+            </div>
+            
+        </form>
+
+    </div>
+    
+</body>
+</html>
