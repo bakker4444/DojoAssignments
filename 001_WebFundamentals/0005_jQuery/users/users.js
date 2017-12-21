@@ -18,6 +18,7 @@ $(document).ready(function(){
             "<span class='textblue'>" + $("#cnumber").val() + "</span>"
         );
 
+        $(this).trigger("reset");
         return false;
     });
 
