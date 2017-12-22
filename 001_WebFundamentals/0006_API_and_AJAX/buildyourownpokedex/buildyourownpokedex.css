@@ -1,0 +1,28 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.pokeimgleft {
+    width: 800px;
+    
+}
+.displayinlineblock {
+    display: inline-block;
+}
+
+.pokemoninforight {
+    width: 250px;
+    height: 450px;
+    border: 50px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    padding: 30px 50px;
+}
+.pokemoninforight img{
+    display: block;
+}
+.img {
+    width: 96px;
+    height: 96px;
+}
