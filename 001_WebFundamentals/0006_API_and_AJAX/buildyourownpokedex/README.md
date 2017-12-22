@@ -8,7 +8,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;buildyourownpokedex.js<br />
 
 <br />
-verified by <https://validator.w3.org/><br />
+verified by https://validator.w3.org/<br />
 <br />
 no error found<br />
 <br />
