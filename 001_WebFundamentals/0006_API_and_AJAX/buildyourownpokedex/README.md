@@ -1,4 +1,4 @@
-## jQuery / "Build Your Own Pokedex" Assignment
+## API and AJAX / "Build Your Own Pokedex" Assignment
 
 ----
 

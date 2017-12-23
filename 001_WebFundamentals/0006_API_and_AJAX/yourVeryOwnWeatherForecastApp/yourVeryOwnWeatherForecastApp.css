@@ -1,0 +1,30 @@
+* {
+    /* border: 1px solid red; */
+}
+.wrapper {
+    width: 600px;
+    
+}
+
+input {
+    margin: 20px;
+    font-size: 20px;
+}
+.temperature {
+    text-align: left;
+    margin-left: 20px;
+}
+table {
+    width: 500px;
+    text-align: center;
+}
+table, tr, td, th {
+    border: 1px solid blue;
+}
+th {
+    width: 250px;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+}

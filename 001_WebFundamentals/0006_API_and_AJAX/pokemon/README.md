@@ -1,4 +1,4 @@
-## jQuery / "Pokemon" Assignment
+## API and AJAX / "Pokemon" Assignment
 
 ----
 
