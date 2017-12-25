@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+#world {
+
+}
+.row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.row{
+    margin-bottom: -4px;
+}
+.brick {
+    background-color: blue;   
+}
+.coin {
+    background-image: url("pacmanCoin.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#pacman {
+    background-image: url("pacman.gif");
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#score { 
+    border: 1px solid white;
+    width: 30px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 40px 60px;
+}
+.cherry {
+    background-image: url("cherry.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
