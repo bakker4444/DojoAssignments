@@ -8,7 +8,7 @@ Each folder sorted chronical order of learning.<br />
 Repository Folder Structure<br />
 <br />
 DojoAssignments<br />
-├── 001_WebFundamentals<br />
+└── 001_WebFundamentals<br />
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 0001_Git<br />
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── gitDemo<br />
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── GitHubRepoAssignment<br />
