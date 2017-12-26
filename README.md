@@ -3,9 +3,8 @@
 This repo is for the assignment of Dojo.<br />
 Each folder sorted chronical order of learning.<br />
 <br />
-<br />
-&nbsp;
-Repository Folder Structure<br />
+
+>Repository Folder Structure<br />
 <br />
 DojoAssignments<br />
 └── 001_WebFundamentals<br />
