@@ -1,17 +1,15 @@
 $(document).ready(function(){
 
-    // console.log("Hello");
-    // alert("Hello");
-
     $(".weatherform").submit(function(){
         // City Temperature
-        var preUrl = "http://samples.openweathermap.org/data/2.5/weather?q=";
+        var preUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
         var cityName = $("#inputcity").val().replace(" ","%20");
         var preMykey = "&appid=";
         var myKey = "PRIVATE KEY (DELETED)";
         var urlTotal = preUrl + cityName + preMykey + myKey;
 
         $.get(urlTotal, function(weatherData){
+            // console.log(weatherData);
             var tempKelvin = weatherData["main"]["temp"];
             var tempFahrenheit = parseInt(Math.round((9/5) * (tempKelvin - 273) + 32));
 
@@ -23,14 +21,14 @@ $(document).ready(function(){
         // Weekly Forecast (additional feature)
         // Need to fix the date information
         // Image source: https://darksky.net/help#+15
-        var urlForecastPre = "http://samples.openweathermap.org/data/2.5/forecast?q=";
+        var urlForecastPre = "https://api.openweathermap.org/data/2.5/forecast?q=";
         var cityName = $("#inputcity").val().replace(" ","%20");
-        var urlForecastTotal = urlForecastPre + cityName + preMykey + myKey;        
-        $(".weatherinfo").append ("<table class='tableforecast'><tr><th>Dates</th><th>Weather</th></tr></table>");
+        var urlForecastTotal = urlForecastPre + cityName + preMykey + myKey;
+        $(".weatherForecast").html("<table class='tableforecast'><tr><th>Dates</th><th>Weather</th></tr></table>");
         $.get(urlForecastTotal,function(forecastData){
-            console.log("Hello");
-            console.log(forecastData["list"][0]["dt_txt"]);
-            console.log(forecastData["list"][0]["weather"][0]["description"]);            
+            // console.log(forecastData)
+            
+            // Weather Image Code
             for(var i=0; i< forecastData["list"].length; i++ ){
                 if (forecastData["list"][i]["weather"][0]["description"] == "clear sky"){
                     $(".tableforecast").append(
