@@ -1,0 +1,11 @@
+pip install Django
+pip list
+pip install Django
+pip freeze
+cd ~/Desktop
+pip freeze > requirements.txt
+ls
+pip uninstall Django
+pip show Django
+pip search Flask
+
