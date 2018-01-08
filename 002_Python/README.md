@@ -1,5 +1,6 @@
-## Python Assignment Folder
+## Python Assignment Folder  
 <br />
+Python version : 2.7.14
 <br />
 
 ```
