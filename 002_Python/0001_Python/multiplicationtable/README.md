@@ -1,4 +1,4 @@
-## Python / "Miltiplication Table" Assignment
+## Python / "Multiplication Table" Assignment
 
 ----
 
