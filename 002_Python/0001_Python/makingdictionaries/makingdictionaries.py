@@ -19,25 +19,32 @@
 # Hacker Challenge:
 # If the lists are of unequal length, the longer list should be used for the keys, the shorter for the values.
 
-def dict_make_same_length(list1, list2):
+def dict_make_same_length(a1, b1):
     new_dict = {}
-    for i in range(len(list1)):
-        new_dict[list1[i]] = list2[i]
+    for i in range(len(a1)):
+        new_dict[a1[i]] = b1[i]
     return new_dict
 
 def making_dictionaries(list1, list2):
     if len(list1) == len(list2):
-        return dict_make_same_length(list1, list2)
+        result = dict_make_same_length(list1, list2)
+        return result
     elif len(list1) > len(list2):
         # if len(list1) > len(list2),
-        # makes list2 same length as list1 with null  
+        # makes list2 same length as list1 with None  
+        # list1 ==> key, list2 ==> value
         for i in range(len(list1) - len(list2)):
             list2.append(None)
-        return dict_make_same_length(list1, list2)
+            result = dict_make_same_length(list1, list2)
+            return result
     else:
-        for i in range(len(list2) - len(list2)):
+        # if len(list1) < len(list2),
+        # make list1 same length as list2 with None
+        # list2 ==> key, list1 ==> value
+        for i in range(len(list2) - len(list1)):
             list1.append(None)
-        return dict_make_same_length(list1, list2)
+            result = dict_make_same_length(list2, list1)
+            return result
 
 # Same length : name_1, favorite_animal_1
 name_1 = ["Anna", "Eli", "Pariece", "Brendan", "Amy", "Shane", "Oscar"]
@@ -53,6 +60,9 @@ favorite_animal_2 = ["horse", "cat", "spider", "giraffe", "ticks", "dolphins", "
 print making_dictionaries(name_2, favorite_animal_2)
 print "\n\n"
 
-print making_dictionaries(favorite_animal_2, name_2)
-print "\n\n"
+# Different length : name_3, favorite_animal_3
+name_3 = ["Anna", "Eli", "Pariece", "Brendan", "Amy", "Shane", "Oscar"]
+favorite_animal_3 = ["horse", "cat", "spider", "giraffe", "ticks", "dolphins", "llamas", "dindin"]
+
+print making_dictionaries(name_3, favorite_animal_3)
 
