@@ -79,8 +79,8 @@ print "==============================================\n"
 tumbler1.display_info()
 tumbler1.sell()
 
-# return defective tumbler1 item with & check tumbler1 info again
-tumbler1.return1("defective")
+# return tumbler1 item with the box opened & check tumbler1 info again
+tumbler1.return1("opened box")
 tumbler1.display_info()
 print "==============================================\n"
 
