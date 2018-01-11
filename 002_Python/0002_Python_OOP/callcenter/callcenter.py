@@ -112,7 +112,8 @@ class CallCenterHacker(CallCenterNinja):
 def called_time():
     return datetime.datetime.fromtimestamp(time.time()).strftime("%Y-%m-%d %H:%M:%S")
 
-
+print "Please waiting more than 7 seconds ...( time delay : > 7sec )"
+print "due to timestamps for individual Call class"
 
 # create instances based on Call class,
 # intentionally delayed by 1 sec between each objects
