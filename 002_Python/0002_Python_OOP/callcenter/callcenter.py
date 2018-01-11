@@ -145,7 +145,7 @@ c3.display()
 # c7.display()
 print "####################################################\n"
 
-# create CallCenter instance with 4 CallCenter objects
+# create CallCenter instance with 4 Call objects
 Dindin_center = CallCenter(c0, c6, c2, c5)
 Dindin_center.info()
 print "----------------------------------------------------\n"
