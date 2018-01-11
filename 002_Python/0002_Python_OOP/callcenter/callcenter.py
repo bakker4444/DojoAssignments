@@ -96,16 +96,19 @@ class CallCenterNinja(CallCenter):
 # Call center class - Hacker Level ( inherit from CallCenterNinja )
 class CallCenterHacker(CallCenterNinja):
     def sort_by_time(self):
-        self.sorted_queue = []
-        min_time_call = self.calls[0]
-        for i in range(len(self.calls)):
-            min_time_call = self.calls[0]
-            for j in range(len(self.calls)):
-                if min_time_call.time > self.calls[j].time:
-                    min_time_call = self.calls[j]
-            self.calls.remove(min_time_call)
-            self.sorted_queue.append(min_time_call)
-        self.calls = self.sorted_queue
+        min_time_call = 0
+        if len(self.calls) == 0:
+            print "There is nothing in queue list. No need to sored\n"
+        elif len(self.calls) == 1:
+            print "There is only one instance in queue list. No need to sorted\n"
+        else:
+            print "Sorting ... (ascending order) ...\n"
+            for i in range(len(self.calls)-1):
+                for j in range(i + 1, len(self.calls)):
+                    if self.calls[i].time > self.calls[j].time:
+                        min_time_call = self.calls[j]
+                        self.calls[j] = self.calls[i]
+                        self.calls[i] = min_time_call
         return self
 
 # return specific time when this function is called (eg. "YYYY-MM-DD HH:MM:SS" style)
@@ -179,7 +182,13 @@ Din_center_2.info()
 print "====================================================\n"
 
 # create CallCenterHacker instance (Ninja Level, inherit from CallCenterNinja class) with 4 Call objects (not ordered by time)
-Din_center_3 = CallCenterHacker(c6, c4, c2, c0)
+# Din_center_3 = CallCenterHacker(c6, c4, c2, c0)
+Din_center_3 = CallCenterHacker(c5, c3, c1)
+Din_center_3.info()
+print "****************************************************\n"
+
+# add call instances on queue list
+Din_center_3.add(c4)
 Din_center_3.info()
 print "****************************************************\n"
 
