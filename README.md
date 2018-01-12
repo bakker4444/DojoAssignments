@@ -2,7 +2,7 @@
 <br />
 
 ### This repo is for the assignment for Coding Dojo.  
-### Folder is organized by in chronological order of learning.  
+### Folder is organized in chronological order of learning.  
 
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp; Python version : 2.7.14<br />
