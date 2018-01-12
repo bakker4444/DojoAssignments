@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Disappearing Ninja</title>
+    </head>
+    <body>
+        {% if flag == 0 %}
+            <h1>No Ninjas Here</h1>
+        {% elif flag == 1 %}
+            <img src="{{ url_for('static', filename='image/tmnt.png') }}" alt="Team Image">
+        {% elif flag == 2 %}
+            <img src="{{ url_for('static', filename='image/leonardo.jpg') }}" alt="Leonardo Image">
+        {% elif flag == 3 %}
+            <img src="{{ url_for('static', filename='image/michelangelo.jpg') }}" alt="Michelangelo Image">
+        {% elif flag == 4 %}
+            <img src="{{ url_for('static', filename='image/raphael.jpg') }}" alt="Raphael Image">
+        {% elif flag == 5 %}
+            <img src="{{ url_for('static', filename='image/donatello.jpg') }}" alt="Donatello Image">
+        {% elif flag == 6 %}
+            <img src="{{ url_for('static', filename='image/notapril.jpg') }}" alt="Common Image">
+        {% endif %}
+    </body>
+</html>
