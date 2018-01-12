@@ -1,0 +1,33 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    padding: 40px 40px 40px 80px;
+    width: 500px;
+    font-size: 20px;
+}
+
+div div{
+    padding: 5px;
+}
+
+.prefix{
+    display: inline-block;
+    width: 300px;
+}
+
+.button {
+    padding: 10px;
+    width: 350px;
+    display: block;
+    text-align: right;
+}
+
+div .comment{
+    margin-bottom: 100px;
+}
+
+h1 {
+    text-decoration: underline;
+}

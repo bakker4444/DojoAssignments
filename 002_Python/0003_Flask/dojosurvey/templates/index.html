@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dojo Survey Index</title>
+        <link rel="stylesheet" href="{{ url_for( 'static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <form action="/result" method="post">
+                <div class="name">
+                    <label for="fullname">Your Name: </label>
+                    <input type="text" name="name" id="fullname" required>
+                </div>
+                <div class="location">
+                    <label for="location">Dojo Location: </label>
+                    <select name="location" id="location">
+                        <option value="Seattle">Seattle</option>
+                        <option value="Silicon Valley">Silicon Valley</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="Dallas">Dallas</option>
+                        <option value="Washington D.C.">Washington D.C.</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Tulsa">Tulsa</option>
+                    </select>
+                </div>
+                <div class="fav_language">
+                    <label for="fav_language">Favorite Language: </label>
+                    <select name="favorite_language" id="fav_language">
+                        <option value="C/C++">C/C++</option>
+                        <option value="Python">Python</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Go">Go</option>
+                        <option value="Objective C">Objective C</option>
+                        <option value="Swift">Swift</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comment" id="comment_label">Comment (optional):</label>
+                    <textarea name="comment" id="comment" cols="77" rows="20"></textarea>
+                </div>
+                <span><input type="submit" value="Button"></span>
+            </form>
+        </div>
+    </body>
+</html>

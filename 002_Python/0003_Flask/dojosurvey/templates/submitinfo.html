@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dojo Survey Index</title>
+        <link rel="stylesheet" href="{{ url_for( 'static', filename='css/submitinfo.css') }}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Submited Info</h1>
+            <div class="name">
+                <span class="prefix">Name: </span>{{ name }}                
+            </div>
+            <div class="location">
+                <span class="prefix">Dojo Location: </span>{{ location }}
+            </div>
+            <div class="fav_lang">
+                <span class="prefix">Favorite Language: </span>{{ fav_language }}
+            </div>
+            <div class="comment">
+                <span class="prefix">Comment: </span>{{ comment }}
+            </div>
+            <form class="button" action="/" method="post">
+                <input type="submit" value="Go Back">
+            </form>
+        </div>
+    </body>
+</html>
