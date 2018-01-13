@@ -1,0 +1,18 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 160px;
+    padding: 30px;
+}
+
+form {
+    display : inline-block;
+    margin: 20px;
+}
