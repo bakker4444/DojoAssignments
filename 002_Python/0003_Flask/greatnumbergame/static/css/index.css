@@ -1,0 +1,29 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    width: 600px;
+    margin: 50px;
+    text-align: center;
+}
+
+.redbox {
+    background-color: red;
+}
+
+.greenbox {
+    background-color: green;
+}
+
+.showcontents {
+    display: block;
+}
+
+.hidecontents {
+    display: none;
+}
+
+.boxsize {
+    padding: 20px 0px;
+}
