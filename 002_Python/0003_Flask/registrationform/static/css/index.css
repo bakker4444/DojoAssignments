@@ -1,0 +1,58 @@
+* {
+    /* border: 1px solid deeppink; */
+}
+
+body {
+    width: 1200px;
+}
+
+body .wrapper, body .error_messages {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.wrapper * {
+    margin: 10px;
+}
+
+.wrapper h1 {
+    margin-bottom: 50px;
+}
+
+form div label, form div input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+form div input{
+    width: 220px;
+    font-size: 20px;
+}
+
+form div label {
+    width: 180px;
+}
+
+.submit_row {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#submit {
+    width: 100px;
+}
+
+html body .error_messages {
+    width: 500px;
+    margin: 150px 20px 20px 20px;
+    font-size: 20px;
+}
