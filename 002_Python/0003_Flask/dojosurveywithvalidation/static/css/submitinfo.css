@@ -1,0 +1,39 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    width: 500px;
+    font-size: 20px;
+}
+
+div div{
+    padding: 10px 20px;
+}
+
+div div .alignbox {
+    display: inline-block;
+    width: 175px;
+}
+
+div div .resultbox {
+    display: inline-block;
+    width: 270px;
+}
+
+.comment_align{
+    vertical-align: top;
+}
+
+.link_button_row {
+    padding-right: 60px;
+    text-align: right;
+}
+
+h1{
+    text-decoration: underline;
+    font-style: italic;
+}
