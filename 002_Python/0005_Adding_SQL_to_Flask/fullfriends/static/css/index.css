@@ -1,0 +1,62 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 710px;
+    padding: 30px;
+    margin: 30px;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 40px;
+    vertical-align: center;
+}
+
+table th, table tr, table td {
+    width: 150px;
+    border: 1px solid black;
+}
+
+table th{
+    padding: 7px 0px;
+}
+
+form {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+}
+
+label input {
+    display: inline-block;
+}
+
+#submit {
+    width: 100px;
+}
+
+.submit_row {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.textcenterbox {
+    text-align: center;
+}
+

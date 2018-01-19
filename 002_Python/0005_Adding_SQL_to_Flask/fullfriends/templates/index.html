@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Friends</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <div class = "wrapper">
+
+            <!-- UPPER PART -->
+            <div class = "showfriend">
+                <h1>Friends:</h1>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Friend Since</th>
+                        <th></th>
+                    </th>
+                    {% for friend in friends  %}
+                    <tr>
+                        {% if friend["last_name"] != "" %}
+                            <td class='textcenterbox'>{{ friend["first_name"] + " " + friend["last_name"] }}</td>
+                        {% else %}
+                            <td class='textcenterbox'>{{ friend["first_name"] }}</td>
+                        {% endif %}
+                        <td class='textcenterbox'>{{ friend["age"] }}</td>
+                        <td class='textcenterbox'>{{ friend["friend_since"].strftime('%b %d') }}</td>
+                        <td class='textcenterbox'>{{ friend["friend_since"].strftime('%Y') }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <!-- LOWER PART -->
+            <div class = "addfriends">
+                <h1>Add a Friend:</h1>
+                <form action="/addfriend" method="post">
+                    <label for="fullname" class="widthindent">Name:</label>
+                    <input type="text" name="fullname" id="fullname"><br>
+
+                    <label for="age" class="widthindent">Age:</label>
+                    <input type="number" name="age" id="age"><br>
+
+                    <div class="submit_row"><input type="submit" value="Submit" id="submit"></div>
+                </form>
+            </div>
+            <!-- addfriends div closed -->
+            
+        </div>      
+        <!-- wrapper class closed -->
+    </body>
+</html>
