@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Success Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/success.css') }}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="greenbox">
+                <h1>The email address you entered {{ last_email }} is a VALID email address! Thank you!</h1>
+            </div>
+            <div class="emaillog">
+                <h2>Email Addresss Entered:</h2>
+                {% for log in logs %}
+                    <div class="logrow">
+                        <h3 class="boxalign">{{ log["email"] }}</h3>
+                        <h3 class="boxalign">{{ log["created_at"] }}</h3>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>

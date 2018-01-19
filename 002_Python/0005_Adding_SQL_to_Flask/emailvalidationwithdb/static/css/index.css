@@ -1,0 +1,42 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    font-size: 25px;
+    margin: 150px;
+}
+
+input {
+    font-size: 25px;
+}
+
+#email {
+    width: 450px;
+}
+
+.submit_row {
+    width: 500px;
+    text-align: right;
+    padding: 20px 50px 20px 20px; 
+}
+
+.submit_row input {
+    padding: 10px;
+}
+
+.showdisplay {
+    display: inline-block;
+}
+
+.nodisplay {
+    display: none;
+}
+
+.redbox {
+    background: red;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    text-align: center;
+    width: 550px;
+}

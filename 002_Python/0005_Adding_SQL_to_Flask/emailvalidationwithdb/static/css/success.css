@@ -1,0 +1,36 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+}
+
+h3 {
+    display: inline-block;
+    width : 280px;
+}
+
+.greenbox {
+    background : green;
+    padding: 30px;
+}
+
+.emaillog {
+    padding: 20px;
+}
+
+.emaillog h2 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.logrow {
+    margin: 0px 0px 0px 50px;
+}
+
+.boxalign {
+    margin: 5px;
+}

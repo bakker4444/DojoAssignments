@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Email Validation</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <div class="redbox {{ warningbox }}">
+                <h1>Email is not valid!</h1>
+            </div>
+
+            <form action="/validate" method="post">
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
+                <div class="submit_row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

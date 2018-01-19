@@ -1,4 +1,4 @@
-## Adding SQL to Flask / "Full Friends" Assignment
+## Adding SQL to Flask / "Email Validation with DB" Assignment
 
 ----
 
@@ -6,14 +6,16 @@
 
 ```
     .
-    ├── server.py
+    ├── emailvalidationwithdb.py
     ├── mysqlconnection.py
-    ├── friends.sql
+    ├── emaillog.sql
     ├── static/
     │   └── css/
-    │       └── index.css
+    │       ├── index.css
+    │       └── success.css
     └── templates/
-        └── index.html
+        ├── index.html
+        └── success.html
 ```
 
 <br />
