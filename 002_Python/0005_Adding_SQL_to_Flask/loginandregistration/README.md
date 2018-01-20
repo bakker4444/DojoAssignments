@@ -1,4 +1,4 @@
-## Adding SQL to Flask / "Email Validation with DB" Assignment
+## Adding SQL to Flask / "Login and Registration" Assignment
 
 ----
 
