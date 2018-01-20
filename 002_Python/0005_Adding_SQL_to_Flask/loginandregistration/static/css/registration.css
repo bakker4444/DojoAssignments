@@ -1,0 +1,47 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    width: 600px;
+    margin: 50px;
+    padding: 20px 10px 20px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.wrapper form {
+    padding: 10px;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 220px;
+    font-size: 20px;
+}
+
+.userid_row, .firstname_row, .lastname_row, .email_row, .password_row, .confirmation_password_row, .submit_row  {
+    margin: 20px 0px 10px 0px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.registration_row, .login_row {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.userid_row input, .firstname_row input, .lastname_row input, .email_row input, .password_row input, .confirmation_password_row input {
+    width: 340px;
+}
+
+.registration_row input, .login_row form input{
+    width: 150px;
+}
