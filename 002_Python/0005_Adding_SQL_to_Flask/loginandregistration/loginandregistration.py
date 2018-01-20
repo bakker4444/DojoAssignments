@@ -10,6 +10,10 @@ mysql = MySQLConnector(app, "loginandregistration")
 
 @app.route("/")
 def index():
+    # Case : logout status ( first time access or access right after reset the session )
+    if "login_status" not in session.keys():
+        session["login_status"] = False
+        session["login_id"] = None
     return render_template("login.html")
 
 @app.route("/loginprocess", methods=["POST"])
@@ -27,6 +31,8 @@ def loginvalidation():
         flash("Please check your password again", "password_error")
         return redirect("/")
     else:
+        session["login_status"] = True
+        session["login_id"] = request.form["userid"]
         return redirect("/loginsuccess")
 
 @app.route("/registration")
