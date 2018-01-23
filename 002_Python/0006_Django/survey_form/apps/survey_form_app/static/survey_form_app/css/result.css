@@ -1,0 +1,39 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    width: 580px;
+}
+
+.success_box {
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.information_box {
+    padding: 0px 20px 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.information_box div {
+    margin-left : 30px;
+}
+
+h3, h4 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h3 {
+    width: 180px;
+    margin-right: 20px;
+}
+
+.goback_row {
+    padding-right: 50px;
+    text-align: right;
+}

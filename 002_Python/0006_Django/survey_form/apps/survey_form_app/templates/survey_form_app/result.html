@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'survey_form_app/css/result.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="success_box">
+                <h2>Thanks for submitting this form! You have submitted this form {{ submit_count }} times now</h2>
+            </div>
+            <div class="information_box">
+                <h1>Submitted Information</h1>
+                <div class="name_row">
+                    <h3>Name:</h3>
+                    <h4>{{ name }}</h4>
+                </div>
+                <div class="location_row">
+                    <h3>Dojo Location:</h3>
+                    <h4>{{ location }}</h4>
+                </div>
+                <div class="favorite_row">
+                    <h3>Favorite Language:</h3>
+                    <h4>{{ favorite_language }}</h4>
+                </div>
+                <div class="comment_row">
+                    <h3>Comment:</h3>
+                    <h4>{{ comment }}</h4>
+                </div>
+
+                <div class="goback_row">
+                    <form action="/" method="post">
+                        {% csrf_token %}
+                        <input type="submit" value="Go Back!">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

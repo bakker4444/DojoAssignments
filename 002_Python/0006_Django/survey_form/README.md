@@ -1,4 +1,4 @@
-## Django / "Time Display" Assignment
+## Django / "Survey Form" Assignment
 
 ----
 
@@ -9,7 +9,7 @@
     ├── manage.py
     ├── apps/
     │   ├── __init__.py
-    │   └── time_display/
+    │   └── survey_form_app/
     │       ├── __init__.py
     │       ├── admin.py
     │       ├── apps.py
@@ -20,13 +20,15 @@
     │       ├── migration/
     │       │   └── __init__.py
     │       ├── static/
-    │       │   └── time_display/
+    │       │   └── survey_form_app/
     │       │       └── css/
-    │       │           └── index.css
+    │       │           ├── index.css
+    │       │           └── result.css
     │       └── templates/
-    │           └── time_display/
-    │               └── index.html
-    └── timedisplay/
+    │           └── survey_form_app/
+    │               ├── index.html
+    │               └── result.html
+    └── survey_form/
         ├── __init__.py
         ├── settings.py
         ├── urls.py
