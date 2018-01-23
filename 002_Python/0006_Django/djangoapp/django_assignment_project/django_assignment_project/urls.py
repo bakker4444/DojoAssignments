@@ -20,8 +20,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include("apps.blogs.urls")),
     url(r'^new/', include("apps.blogs.urls")),
-    url(r'^create', include("apps.blogs.urls")),
+    url(r'^create/', include("apps.blogs.urls")),
     url(r'^(?P<number>[0-9]+)/$', include("apps.blogs.urls")),
-    url(r'^(?P<number>[0-9]+)/edit', include("apps.blogs.urls")),
-    url(r'^(?P<number>[0-9]+)/delete', include("apps.blogs.urls")),
+    url(r'^(?P<number>[0-9]+)/edit/', include("apps.blogs.urls")),
+    url(r'^(?P<number>[0-9]+)/delete/', include("apps.blogs.urls")),
 ]

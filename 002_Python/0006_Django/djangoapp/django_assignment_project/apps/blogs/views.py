@@ -22,7 +22,7 @@ def show(request, number):
 
 def edit(request, number):
     response = "placeholder to edit blog " + number
-    return HtpResponse(response)
+    return HttpResponse(response)
 
 def destroy(request, number):
     return redirect("/")
