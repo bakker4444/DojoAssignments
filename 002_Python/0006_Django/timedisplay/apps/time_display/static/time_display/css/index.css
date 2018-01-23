@@ -1,0 +1,25 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    width: 400px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+h3 {
+    display: inline-block;
+    width: 300px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
