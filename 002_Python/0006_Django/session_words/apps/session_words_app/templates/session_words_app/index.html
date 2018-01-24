@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Session Words</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'session_words_app/css/index.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="word_form_box">
+                <h2 class="redfont">{{ error_message }}</h2>
+                <form action="/session_words/process" method="post">
+                    {% csrf_token %}
+                    <div class="word_row">
+                        <label>Add a new word</label><br>
+                        <input type="text" name="word" id="word">
+                    </div>
+                    <div class="color_row">
+                        <h3>Choose color:</h3>
+                        
+                        <input type="radio" name="color" id="color_red" value="red">
+                        <label for="color_red">Red</label><br>
+
+                        <input type="radio" name="color" id="color_green" value="green">
+                        <label for="color_green">Green</label><br>
+
+                        <input type="radio" name="color" id="color_blue" value="blue">
+                        <label for="color_blue">Blue</label><br>
+                    </div>
+                    <div class="font_big_row">
+                        <input type="checkbox" name="font_big" id="font_big">
+                        <label for="font_big">show in BIG fonts!</label>
+                    </div>
+                    <div class="submit_row">    
+                        <input type="submit" value="Add to Session">
+                    </div>
+                </form>
+            </div>
+            <div class="info_box">
+                <form action="/reset" method="post">
+                    {% csrf_token %}
+                    <input type="submit" value="Clear Session">
+                </form>
+                {% for dict in word_list %}
+                <div>
+                    <h4 class="{{ dict.color }}">{{ dict.words }}</h4><br>
+                </div>
+                <div id="time">
+                    <h5>{{ dict.add_time }}</h5>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>
