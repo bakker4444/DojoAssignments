@@ -1,0 +1,10 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

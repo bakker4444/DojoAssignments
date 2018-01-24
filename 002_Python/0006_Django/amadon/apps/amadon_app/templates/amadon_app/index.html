@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Amadon</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'amadon_app/css/index.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Amadon Store!</h1>
+            <table>
+                <tr>
+                    <th class="column1">Item</th>
+                    <th class="column2">Price</th>
+                    <th class="column3">Action</th>
+                </tr>
+                <tr>
+                    <td class="column1">Dojo Tshirt</td>
+                    <td class="column2">$19.99</td>
+                    <td class="column3">
+                        <form action="/amadon/process" method="post" class="form1">
+                            {% csrf_token %}
+                            <select name="quantity" id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <input type="hidden" name="product_id" value = "1">
+                            <input type="submit" value="Buy!">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="column1">Dojo Sweater</td>
+                    <td class="column2">$29.99</td>
+                    <td class="column3">
+                        <form action="/amadon/process" method="post" class="form2">
+                            {% csrf_token %}
+                            <select name="quantity" id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <input type="hidden" name="product_id" value = "2">
+                            <input type="submit" value="Buy!">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="column1">Dojo Cup</td>
+                    <td class="column2">$4.99</td>
+                    <td class="column3">
+                        <form action="/amadon/process" method="post" class="form3">
+                            {% csrf_token %}
+                            <select name="quantity" id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <input type="hidden" name="product_id" value = "3">
+                            <input type="submit" value="Buy!">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="column1">Algorithm Book</td>
+                    <td class="column2">$49.99</td>
+                    <td class="column3">
+                        <form action="/amadon/process" method="post" class="form4">
+                            {% csrf_token %}
+                            <select name="quantity" id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <input type="hidden" name="product_id" value = "4">
+                            <input type="submit" value="Buy!">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

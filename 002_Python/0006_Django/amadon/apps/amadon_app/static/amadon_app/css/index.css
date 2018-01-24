@@ -1,0 +1,32 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+table tr th, table tr td {
+    border: 1px solid black;
+}
+
+.column1, .column2, .column3 {
+    padding: 10px 10px 10px 20px;
+}
+
+.column1 {
+    width: 300px;
+}
+
+.column2 {
+    width: 100px;
+}
+
+.column3 {
+    width: 300px;
+}
+
+select {
+    width: 50px;
+    margin-right: 30px;
+}
