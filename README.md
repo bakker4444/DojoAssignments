@@ -7,6 +7,10 @@
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp; Python version : 2.7.14<br />
 &nbsp;&nbsp;&nbsp;&nbsp; Flask version : 0.12.2<br />
+&nbsp;&nbsp;&nbsp;&nbsp; MySQL version: 5.7.21<br />
+&nbsp;&nbsp;&nbsp;&nbsp; MySQL Workbench version : 6.3.10.<br />
+&nbsp;&nbsp;&nbsp;&nbsp; Django version : 1.11.8<br />
+&nbsp;&nbsp;&nbsp;&nbsp; SQLite version : 3.20.1<br />
 <br />
 
 ### Repository Folder Structure  
@@ -100,6 +104,30 @@ DojoAssignments
 │    │    └── store
 │    │
 │    ├── 0003_Flask
+│    │    ├── counter
+│    │    ├── disappearingninja
+│    │    ├── dojosurvey
+│    │    ├── dojosurveywithvalidation
+│    │    ├── greatnumbergame
+│    │    ├── helloworld
+│    │    ├── landingpage
+│    │    ├── ninjagold
+│    │    ├── portfolio
+│    │    ├── registrationform
+│    │    └── whatsmyname
+│    │
+│    ├── 0004_MySQL
+│    │    ├── blogs
+│    │    ├── books
+│    │    ├── MySQLCountries
+│    │    └── userdashboard
+│    │
+│    ├── 0005_Adding_SQL_to_Flask
+│    │    ├── emailvalidationwithdb
+│    │    ├── fullfriends
+│    │    └── loginandregistration
+│    │
+│    ├── 0006_Django
 │    │    └── (ongoing)
 │         < Current Topics (until updated) >
 │

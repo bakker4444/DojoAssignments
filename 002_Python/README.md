@@ -37,6 +37,30 @@
 │    └── store
 │
 ├── 0003_Flask
+│    ├── counter
+│    ├── disappearingninja
+│    ├── dojosurvey
+│    ├── dojosurveywithvalidation
+│    ├── greatnumbergame
+│    ├── helloworld
+│    ├── landingpage
+│    ├── ninjagold
+│    ├── portfolio
+│    ├── registrationform
+│    └── whatsmyname
+│
+├── 0004_MySQL
+│    ├── blogs
+│    ├── books
+│    ├── MySQLCountries
+│    └── userdashboard
+│
+├── 0005_Adding_SQL_to_Flask
+│    ├── emailvalidationwithdb
+│    ├── fullfriends
+│    └── loginandregistration
+│
+├── 0006_Django
 │    └── (ongoing)
 
 ```
