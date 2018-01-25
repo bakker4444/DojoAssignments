@@ -1,0 +1,108 @@
+# Create a new model called 'Book' with the information above.
+# Create a new model called 'Author' with the information above.
+# Design the models in a way that you could perform the following:
+#   Book.objects.first().authors
+#   Author.objects.first().books
+#
+# Successfully create and run the migration files
+# Using the shell...
+#   Create 5 books with the following names: C sharp, Java, Python, PHP, Ruby
+#   Create 5 different authors: Mike, Speros, John, Jadee, Jay
+
+Book.objects.create(name = "C sharp", desc = "C sharp book")
+Book.objects.create(name = "Java", desc = "Java book")
+Book.objects.create(name = "Python", desc = "Python book")
+Book.objects.create(name = "PHP", desc = "PHP book")
+Book.objects.create(name = "Ruby", desc = "Ruby book")
+
+Author.objects.create(first_name = "Mike", last_name = "Mike", email = "Mike@gmail.com")
+Author.objects.create(first_name = "Speros", last_name = "Speros", email = "Speros@gmail.com")
+Author.objects.create(first_name = "John", last_name = "John", email = "John@gmail.com")
+Author.objects.create(first_name = "Jadee", last_name = "Jadee", email = "Jadee@gmail.com")
+Author.objects.create(first_name = "Jay", last_name = "Jay", email = "Jay@gmail.com")
+
+# Add a new field in the authors table called 'notes'.  Make this a TextField.
+# Successfully create and run the migration files.
+# Using the shell...
+#   Change the name of the 5th book to C#
+a = Book.objects.get(id=5)
+a.name = "C#"
+a.save()
+
+#   Change the first_name of the 5th author to Ketul
+a = Author.objects.get(id=5)
+a.first_name = "Ketul"
+a.save()
+
+#   Assign the first author to the first 2 books
+a = Book.objects.get(id=1)
+b = Book.objects.get(id=2)
+c = Author.objects.get(id=1)
+a.authors.add(c)
+b.authors.add(c)
+a.save()
+b.save()
+
+#   Assign the second author to the first 3 books
+a = Book.objects.get(id=1)
+b = Book.objects.get(id=2)
+c = Book.objects.get(id=3)
+d = Author.objects.get(id=2)
+a.authors.add(d)
+b.authors.add(d)
+c.authors.add(d)
+a.save()
+b.save()
+c.save()
+
+#   Assign the third author to the first 4 books
+a = Book.objects.get(id=1)
+b = Book.objects.get(id=2)
+c = Book.objects.get(id=3)
+d = Book.objects.get(id=4)
+e = Author.objects.get(id=3)
+a.authors.add(e)
+b.authors.add(e)
+c.authors.add(e)
+d.authors.add(e)
+a.save()
+b.save()
+c.save()
+d.save()
+
+#   Assign the fourth author to the first 5 books (or in other words, all the books)
+a = Book.objects.get(id=1)
+b = Book.objects.get(id=2)
+c = Book.objects.get(id=3)
+d = Book.objects.get(id=4)
+e = Book.objects.get(id=5)
+f = Author.objects.get(id=4)
+a.authors.add(f)
+b.authors.add(f)
+c.authors.add(f)
+d.authors.add(f)
+e.authors.add(f)
+a.save()
+b.save()
+c.save()
+d.save()
+e.save()
+
+#   For the 3rd book, retrieve all the authors
+Book.objects.get(id=3).authors.all()
+
+#   For the 3rd book, remove the first author
+Book.objects.get(id=3).authors.first().delete()
+
+#   For the 2nd book, add the 5th author as one of the authors
+a = Book.objects.get(id=2)
+b = Author.objects.get(id=5)
+a.authors.add(b)
+a.save()
+
+#   Find all the books that the 3rd author is part of
+Book.objects.filter(authors=Author.objects.get(id=3))
+
+#   Find all the books that the 2nd author is part of
+Book.objects.filter(authors=Author.objects.get(id=2))
+--> raise error (No match)
