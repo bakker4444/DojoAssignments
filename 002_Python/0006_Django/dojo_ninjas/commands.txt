@@ -1,0 +1,76 @@
+# Dojo
+#   Have it include the name of the dojo and the city and state of each dojo
+#       Have the first dojo be "CodingDojo Silicon Valley" in "Mountain View", "CA".
+#       Have the second dojo be "CodingDojo Seattle" in "Seattle", "WA".
+#       Have the third dojo be "CodingDojo New York" in "New York", "NY".
+# Ninja
+#   Have it include first_name, last_name of each ninja in the dojo.
+#   Each dojo can have multiple ninjas and each ninja belongs to a specific dojo.
+
+from apps.dojo_ninjas_app.models import *
+
+dojo.objects.create(name = "CodingDojo Silicon Valley", city = "Mountain View", state = "CA")
+dojo.objects.create(name = "CodingDojo Seattle", city = "Seattle", state = "WA")
+dojo.objects.create(name = "CodingDojo New York", city = "New York", state = "NY")
+
+ninja.objects.create(first_name = "DinDin", last_name = "Hoho", dojo = dojo.objects.get(id=1))
+ninja.objects.create(first_name = "DonDon", last_name = "Huhu", dojo = dojo.objects.get(id=2))
+ninja.objects.create(first_name = "DowDow", last_name = "Pupu", dojo = dojo.objects.get(id=3))
+
+ninja.objects.create(first_name = "PinPin", last_name = "Bobo", dojo = dojo.objects.get(id=1))
+ninja.objects.create(first_name = "PonPon", last_name = "Bubu", dojo = dojo.objects.get(id=2))
+ninja.objects.create(first_name = "PowPow", last_name = "Baba", dojo = dojo.objects.get(id=3))
+
+# Start a new app (the name of the app should be 'dojo_ninjas')
+# Create appropriate tables/models that allows you to perform tasks such as
+#   dojo.objects.first().ninjas.all()
+result --> 
+<QuerySet [<ninja: id : 1, first_name : DinDin, last_name : Hoho, dojo : id : 1, name : CodingDojo Silicon Valley, city : Mountain View, state : CA>, <ninja: id : 4, first_name : PinPin, last_name : Bobo, dojo : id : 1, name : CodingDojo Silicon Valley, city : Mountain View, state : CA>]>
+
+#   ninja.objects.first().dojo
+result -->
+<dojo: id : 1, name : CodingDojo Silicon Valley, city : Mountain View, state : CA>
+
+# Using Django Shell:
+#   Create 3 dojos
+Done (line 12~14)
+
+#   Delete the three dojos you created (e.g. Dojo.objects.get(id=1).delete())
+dojo.objects.get(id=1).delete()
+dojo.objects.get(id=2).delete()
+dojo.objects.get(id=3).delete()
+
+#   Create 3 additional dojos by using Dojo.objects.create
+dojo.objects.create(name = "CodingDojo Silicon Valley", city = "Mountain View", state = "CA")
+dojo.objects.create(name = "CodingDojo Seattle", city = "Seattle", state = "WA")
+dojo.objects.create(name = "CodingDojo New York", city = "New York", state = "NY")
+
+#   Create 3 ninjas that belong to the first dojo you created.
+#   Create 3 more ninjas and have them belong to the second dojo you created.
+#   Create 3 more ninjas and have them belong to the third dojo you created.
+ninja.objects.create(first_name = "DinDin", last_name = "Hoho", dojo = dojo.objects.get(id=4))
+ninja.objects.create(first_name = "DonDon", last_name = "Huhu", dojo = dojo.objects.get(id=5))
+ninja.objects.create(first_name = "DowDow", last_name = "Pupu", dojo = dojo.objects.get(id=6))
+
+ninja.objects.create(first_name = "PinPin", last_name = "Bobo", dojo = dojo.objects.get(id=4))
+ninja.objects.create(first_name = "PonPon", last_name = "Bubu", dojo = dojo.objects.get(id=5))
+ninja.objects.create(first_name = "PowPow", last_name = "Baba", dojo = dojo.objects.get(id=6))
+
+ninja.objects.create(first_name = "EinEin", last_name = "Lolo", dojo = dojo.objects.get(id=4))
+ninja.objects.create(first_name = "EonEon", last_name = "Lulu", dojo = dojo.objects.get(id=5))
+ninja.objects.create(first_name = "EowEow", last_name = "Lala", dojo = dojo.objects.get(id=6))
+
+#   Be able to retrieve all ninjas that belong to the first Dojo
+dojo.objects.first().ninjas.all()
+
+#   Be able to retrieve all ninjas that belong to the last Dojo
+dojo.objects.last().ninjas.all()
+
+# Add a new field in the Dojo class (found in your models.py) called 'desc'. Allow 'desc' to hold long text (more than 255 characters).
+desc = models.TextField()
+
+# To forward engineer the change, run the appropriate migration commands.
+python manage.py makemigrations
+python manage.py migrate
+
+# Successfully run # the migration files and check the records to make sure the new field was added successfully.
