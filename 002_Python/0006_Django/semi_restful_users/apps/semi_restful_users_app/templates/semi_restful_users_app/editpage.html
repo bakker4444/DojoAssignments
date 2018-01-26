@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Edit Page {{ user.id }}</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'semi_restful_users_app/css/editpage.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Edit User {{ user.id }}</h1>
+            <form action="/users/{{ user.id }}/updateprocess" method="post">
+                {% csrf_token %}
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" value="{{ user.first_name }}">
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name" value="{{ user.last_name }}">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" value="{{ user.email }}">
+                <input type="submit" value="Update" id="update">
+            </form>
+            <h3><a href="/users/{{ user.id }}">Show</a>  |  <a href="/users">Go Back</a></h3>
+        </div>        
+    </body>
+</html>

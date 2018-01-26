@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Users Index</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'semi_restful_users_app/css/index.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Users</h1>
+            <table>
+                <tr>
+                    <th class="column1">id</th>
+                    <th class="column2">Full Name</th>
+                    <th class="column3">Email</th>
+                    <th class="column4">Created At</th>
+                    <th class="column5">Actions</th>
+                </tr>
+                {% for user in users %}
+                <tr>
+                    <td class="column1">{{ user.id }}</td>
+                    <td class="column2"><a href="#">{{ user.first_name }} {{ user.last_name }}</a></td>
+                    <td class="column3">{{ user.email }}</td>
+                    <td class="column4">{{ user.created_at }}</td>
+                    <td class="column5">
+                        <a href="/users/{{ user.id }}">Show</a>
+                        <a href="/users/{{ user.id }}/edit">Edit</a>
+                        <a href="/users/{{ user.id }}/deleteprocess">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+            <a href="/users/create">add a new user</a>
+        </div>
+    </body>
+</html>

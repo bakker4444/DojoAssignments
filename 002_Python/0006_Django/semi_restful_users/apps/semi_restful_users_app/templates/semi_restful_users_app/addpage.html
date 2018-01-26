@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Users New</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'semi_restful_users_app/css/addpage.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            {% if messages %}
+                <ul class="messages">
+                {% for message in messages %}
+                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                        {{ message }}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+            <h1>Add a new user</h1>
+            <form action="/users/addprocess" method="post">
+                {% csrf_token %}
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name">
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <input type="submit" value="Create" id="submit">
+            </form>
+            <a href="/users">Go Back</a>
+        </div>
+    </body>
+</html>

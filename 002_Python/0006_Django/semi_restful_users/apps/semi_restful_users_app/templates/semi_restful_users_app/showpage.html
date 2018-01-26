@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Users Show</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'semi_restful_users_app/css/showpage.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>User {{ user.id }}</h1>
+            <h3>Full Name: {{ user.first_name }} {{ user.last_name }}</h3>
+            <h3>Email: {{ user.email }}</h3>
+            <h3>Created at: {{ user.created_at }}</h3>
+            <h3><a href="/users/{{ user.id }}/edit">Edit</a>  |  <a href="/users/{{ user.id }}/deleteprocess">Delete</a></h3>
+        </div>
+    </body>
+</html>
