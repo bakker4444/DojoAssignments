@@ -1,0 +1,61 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    padding : 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 1000px;
+    margin: 50px;
+}
+
+h1 {
+    padding: 0px 50px;
+}
+
+.tag, .content {
+    display: inline-block;
+}
+
+.tag {
+    width: 200px;
+}
+
+.content {
+    width: 500px;
+}
+
+form {
+    display: inline-block;
+}
+
+.name_row, .content_row {
+    padding: 0px 50px ;
+}
+
+.button_part {
+    padding : 20px;
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+    margin: 0px 50px;
+    padding : 10px;
+}
+
+.no_button {
+    width: 100px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.yes_button {
+    width: 400px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+}

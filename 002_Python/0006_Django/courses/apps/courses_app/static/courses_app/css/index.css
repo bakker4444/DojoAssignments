@@ -1,0 +1,51 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 20px;
+    width: 1200px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+}
+
+input, textarea {
+    font-size: 20px;
+    width: 300px;
+}
+
+tr, td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#submitbutton1 {
+    width: 100px;
+}
+
+.redtext {
+    color : red;
+}
+
+.column1 {
+    width: 400px;
+}
+
+.column2 {
+    width: 200px;
+}
+
+.column3 {
+    width: 300px;
+}
+
+.column4 {
+    width: 200px;
+}

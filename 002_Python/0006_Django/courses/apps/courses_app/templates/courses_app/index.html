@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add a Student to all bootcamp courses</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'courses_app/css/index.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            
+            <div class="add_new_course">
+                <h1>Add a new course</h1>
+
+                {% if messages %}
+                    <ul class="messages">
+                    {% for message in messages %}
+                        <li class="redtext">{{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+
+                <form action="/addprocess" method="post">
+                    {% csrf_token %}
+                    <div class="course_name_row">
+                        <label for="course_name">Name:</label>
+                        <input type="text" name="course_name" id="course_name">        
+                    </div>
+                    <div class="description_row">
+                        <label for="description">Description</label>
+                        <textarea name="desc" id="description" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="submit_row">
+                        <input type="submit" value="Add" id="submitbutton1">
+                    </div>
+                </form>
+            </div>
+
+            <div class="show_course">
+                <h1>Courses</h1>
+                <table>
+                    <tr>
+                        <th class="column1">Course Name</th>
+                        <th class="column2">Description</th>
+                        <th class="column3">Date Added</th>
+                        <th class="column4">Actions</th>
+                    </tr>
+                    {% for course in courses %}
+                    <tr>
+                        <td class="column1">{{ course.name }}</td>
+                        <td class="column2">{{ course.description }}</td>
+                        <td class="column3">{{ course.created_at }}</td>
+                        <td class="column4"><a href="/destroy/{{ course.id }}">remove</a></td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+        </div>
+    </body>
+</html>
