@@ -1,0 +1,11 @@
+* {
+    border: 1px solid red;
+}
+
+.wrapper {
+    padding: 50px;
+}
+
+.greentext {
+    color:green;
+}

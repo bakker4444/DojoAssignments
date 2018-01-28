@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login and Registration | Success</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'login_and_registration_app/css/successpage.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Success! Welcome, {{ first_name }} {{ last_name }}</h1>
+            {% if messages %}
+                {% for message in messages %}
+                    <h3 class="greentext {{ message.tags }}">{{ message }}</h3>
+                {% endfor %}
+            {% endif %}
+            <form action="/logoutprocess" method="get">
+                <input type="submit" value="Logout!">
+            </form>
+        </div>
+    </body>
+</html>
