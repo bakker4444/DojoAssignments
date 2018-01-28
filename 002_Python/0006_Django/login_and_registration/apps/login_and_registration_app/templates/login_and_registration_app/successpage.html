@@ -11,7 +11,7 @@
             <h1>Success! Welcome, {{ first_name }} {{ last_name }}</h1>
             {% if messages %}
                 {% for message in messages %}
-                    <h3 class="greentext {{ message.tags }}">{{ message }}</h3>
+                    <h2 class="greentext {{ message.tags }}">{{ message }}</h2>
                 {% endfor %}
             {% endif %}
             <form action="/logoutprocess" method="get">

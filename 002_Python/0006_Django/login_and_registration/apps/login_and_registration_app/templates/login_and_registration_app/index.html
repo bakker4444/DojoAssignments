@@ -7,18 +7,7 @@
         <link rel="stylesheet" href="{% static 'login_and_registration_app/css/index.css' %}">
     </head>
     <body>
-
         <div class="wrapper">
-
-            <!-- {% if messages %}
-                <ul class="messages">
-                {% for message in messages %}
-                    <li class="redtext">{{ message.tags }}</li>
-                    <li class="redtext">{{ message }}</li>
-                {% endfor %}
-                </ul>
-            {% endif %} -->
-
             <div class="registration_part">
                 <h1>Registration</h1>
                 <form action="/registrationprocess" method="post">
@@ -86,18 +75,8 @@
                     </div>
                 </form>
             </div>
-
             <div class="login_part">
                 <h1>Login</h1>
-                <!-- {% if messages %}
-                    <ul>
-                    {% for message in messages %}
-                        {% if message.tags == "login_error error" %}
-                            <li class="redtext">{{ message }}</li>
-                        {% endif %}
-                    {% endfor %}
-                    </ul>
-                {% endif %} -->
                 <form action="/loginprocess" method="post">
                     {% csrf_token %}
                     <div class="login_email_row">
@@ -131,8 +110,6 @@
                     </div>
                 </form>
             </div>
-
         </div>
-        
     </body>
 </html>

@@ -10,6 +10,7 @@ class RegistrationManager(models.Manager):
     def custom_registration_validator(self, request_data):
         errors = {}
 
+        ### Case : check first name error
         if len(request_data["first_name"]) < 1:
             errors["first_name_error"] = "First name is required ( Not accepted blank first name )"
         elif len(request_data["first_name"]) < 2:
@@ -17,6 +18,7 @@ class RegistrationManager(models.Manager):
         elif not re.compile(r'^[a-zA-Z]{2,}$').match(request_data["first_name"]):
             errors["first_name_error"] = "First name should be greater than or equal to 2 characters, letter only ( Not accepted numbers or special characters )"
 
+        ### Case : check last name error
         if len(request_data["last_name"]) < 1:
             errors["last_name_error"] = "Last name is required ( Not accepted blank last name )"
         elif len(request_data["last_name"]) < 2:
@@ -24,11 +26,13 @@ class RegistrationManager(models.Manager):
         elif not re.compile(r'^[a-zA-Z]{2,}$').match(request_data["last_name"]):
             errors["last_name_error"] = "Last name should be greater than or equal to 2 characters, letter only ( Not accepted numbers or special characters )"
 
+        ### Case : check email error
         if len(request_data["email"]) < 1:
             errors["email_error"] = "Email is required ( Not accepted blank email )"
         elif not re.compile(r'^[a-zA-Z0-9+-_]+@[a-zA-Z0-9+-_]+.[a-zA-Z0-9+-_]$').match(request_data["email"]):
             errors["email_error"] = "Please enter vaild email form (eg. abc123@gmail.com)"
 
+        ### Case : check password error
         if len(request_data["password"]) < 1:
             errors["password_error"] = "Please enter your password ( Not accepted blank password )"
         elif len(request_data["password"]) < 8:
@@ -49,11 +53,3 @@ class User(models.Model):
 
     def __unicode__(self):
         return "id : " + str(self.id) + ", first_name : " + self.first_name + ", last_name : " + self.last_name + ", email : " + self.email + ", password : " + str(self.password) + ", created_at : " + str(self.created_at) + ", updated_at : " + str(self.updated_at)
-
-
-
-
-
-
-
-
