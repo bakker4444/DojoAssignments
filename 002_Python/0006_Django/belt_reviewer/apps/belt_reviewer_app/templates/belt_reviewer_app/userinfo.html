@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Reviews</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'belt_reviewer_app/css/userinfo.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header_contents">
+                <a href="/books">Home</a>
+                <a href="/books/add">Add Book and Review</a>
+                <a href="/logoutprocess">Logout</a>
+            </div>
+            <div class="user_info_part">
+                <h3><span class="label">Alias:</span> {{ user.alias }}</h3>
+                <h3><span class="label">Name :</span> {{ user.name }}</h3>
+                <h3><span class="label">Email :</span> {{ user.email }}</h3>
+                <h3><span class="label">Total Reviews :</span> {{ total_review }}</h3>
+            </div>
+            <div class="review_book_list_part">
+                <h3>Posted Reviews on the folling books</h3>
+                {% if reviews %}
+                    {% for review in reviews %}
+                        <p><a href="/books/{{ review.book.id }}">{{ review.book.name }}</a></p>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>

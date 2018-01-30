@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add Book and Review</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'belt_reviewer_app/css/addbookpage.css' %}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header_contents">
+                <a href="/books">Home</a>
+                <a href="/logoutprocess">Logout</a>
+            </div>
+            <div class="add_book_and_review_part">
+                <h1>Add a New Book Title and a Review:</h1>
+                <form action="/addbookandreviewprocess" method="post">
+                    {% csrf_token %}
+                    <div class="title_row">
+                        <label for="title">Book Title:</label>
+                        <input type="text" name="title" id="title">
+                    </div>
+                    <div class="author_row">
+                        <h2>Author</h2>
+                        <div class="exist_author_row">
+                            <label for="exist_author">Choose from the list:</label>
+                            <select name="exist_author" id="exist_author">
+                                {% for author in authors %}
+                                    <option value="{{ author.name }}">{{ author.name }}</option>
+                                {% endfor %}
+                            </select>                            
+                        </div>
+                        <div class="new_author_row">
+                            <label for="new_author">Or add a new author</label>
+                            <input type="text" name="new_author" id="new_author">
+                        </div>
+                    </div>
+                    <div class="review_row">
+                        <label for="review">Review:</label>
+                        <textarea name="review" id="review" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="rating_row">
+                        <label for="rating">Rating:</label>
+                        <select name="rating" id="rating">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3 selected="selected">3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select>
+                    </div>
+                    <div class="submit_row">
+                        <input type="submit" value="Add Book and Review">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
