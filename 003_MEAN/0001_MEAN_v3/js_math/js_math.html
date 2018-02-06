@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Math</title>
+    </head>
+    <body>
+        
+    </body>
+    <script>
+
+        // Math 1
+        function zero_negativity(arr){
+            for (let i = 0; i < arr.length; i++){
+                if (arr[i] < 0){
+                    return false;
+                }
+            }
+            return true;
+        }
+        let x = [1, 2, 3, 4, 5]
+        let y = [1, -4, 3, 2, 1]
+        console.log(zero_negativity(x))
+        console.log(zero_negativity(y))
+
+        // Math 2
+        function is_even(num){
+            if (num % 2 == 0){
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        console.log(is_even(10));
+        console.log(is_even(11));
+        
+        // Math 3
+        function how_many_even(arr){
+            let numberofeven = 0;
+            for (let i = 0; i < arr.length; i++){
+                if (is_even(arr[i])){
+                    numberofeven++;
+                }
+                else {
+                    continue;
+                }
+            }
+            return numberofeven;
+        }
+        let a = [1, 2, 3, 4, 5]
+        let b = [2, 4, 6, 8, 10]
+        console.log(how_many_even(a));
+        console.log(how_many_even(b));
+        
+        // Math 4
+        function create_dummy_array(n){
+            let returned_arr = []
+            for (let i = 0; i < n; i++){
+                returned_arr[i] = Math.random() * 9;
+            }
+            return returned_arr;
+        }
+        console.log(create_dummy_array(10));
+        console.log(create_dummy_array(10).length);
+        console.log(create_dummy_array(20));
+        console.log(create_dummy_array(20).length);
+
+        // Math 5
+        function random_choice(arr) {
+            if (arr.length < 1){
+                return "This is empty array"
+            }
+            else {
+                return arr[ Math.floor(Math.random() * arr.length) ]
+            }
+        }
+        let arr1 = [1, 2, 3, 4, 5];
+        let arr2 = [5, 3, 2, 6, 7, 10];
+        let arr3 = [];
+        console.log(random_choice(arr1));
+        console.log(random_choice(arr2));
+        console.log(random_choice(arr3));
+
+    </script>
+</html>
