@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Deck of Cards</title>
+    </head>
+    <body>
+        
+    </body>
+    <script>
+    
+        class Deck {
+            constructor() {
+                this.reset();
+            }
+            newDeckGen () {
+                this.deck = [];
+                var shapes = ["\u2664", "\u2661", "\u2662", "\u2667" ];
+                
+                for (let i = 0; i < shapes.length; i++) {
+                    for (let j = 1; j < 14; j++){
+                        if (j == 1) {
+                            this.deck.push(["A", shapes[i]]);
+                        }
+                        else if (j == 11){
+                            this.deck.push(["J", shapes[i]]);
+                        }
+                        else if (j == 12) {
+                            this.deck.push(["Q", shapes[i]]);
+                        }
+                        else if (j == 13) {
+                            this.deck.push(["K", shapes[i]]);
+                        }
+                        else {
+                            this.deck.push([j, shapes[i]]);
+                        }
+                    }
+                }
+            }
+            shuffleDeck () {
+                var temp;
+                for (let i = this.deck.length - 1; i > 0; i--) {
+                    let j = Math.floor(Math.random() * (i+1));
+                    temp = this.deck[i];
+                    this.deck[i] = this.deck[j];
+                    this.deck[j] = temp;
+                }
+            }
+            reset () {
+                this.newDeckGen();
+                this.shuffleDeck();
+            }
+            deal() {
+                return this.deck.pop();
+            }
+        }
+
+        class Player {
+            constructor(name) {
+                this.name = name;
+                this.hand = [];
+            }
+            draw (deck) {
+                this.hand.push(deck.deal());
+            }
+            discard () {
+                var temp, temp_num;
+                temp_num = Math.floor(Math.random() * this.hand.length);
+                temp = this.hand[temp_num];
+                this.hand[temp_num] = this.hand[this.hand.length - 1];
+                this.hand[this.hand.length - 1] = temp;
+                this.hand.pop();
+            }
+        }
+        
+        const deck1 = new Deck();
+        console.log(deck1.deck);
+
+        const player1 = new Player("Hoho");
+        console.log(player1.name);
+        console.log(player1.hand);
+
+        // Test --> draw 10 card from deck
+        for (let i=0; i < 10; i++) {
+            player1.draw(deck1);
+        }
+        // check player1 hands
+        console.log(player1.hand);
+        // check rest cards in deck
+        console.log(deck1.deck);
+
+        // OPTIONAL : Create a blackjack game with your deck of cards!
+
+    </script>
+</html>
