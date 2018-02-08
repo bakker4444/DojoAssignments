@@ -60,7 +60,20 @@
 │    ├── fullfriends
 │    └── loginandregistration
 │
-├── 0006_Django
-│    └── (ongoing)
+└── 0006_Django
+    ├── amadon
+    ├── belt_reviewer
+    ├── books_authors
+    ├── courses
+    ├── djangoapp
+    ├── dojo_ninjas
+    ├── likes_books
+    ├── login_and_registration
+    ├── random_word_generator
+    ├── semi_restful_users
+    ├── session_words
+    ├── survey_form
+    ├── timedisplay
+    └── users
 
 ```

@@ -127,15 +127,46 @@ DojoAssignments
 │    │    ├── fullfriends
 │    │    └── loginandregistration
 │    │
-│    ├── 0006_Django
+│    └── 0006_Django
+│         ├── amadon
+│         ├── belt_reviewer
+│         ├── books_authors
+│         ├── courses
+│         ├── djangoapp
+│         ├── dojo_ninjas
+│         ├── likes_books
+│         ├── login_and_registration
+│         ├── random_word_generator
+│         ├── semi_restful_users
+│         ├── session_words
+│         ├── survey_form
+│         ├── timedisplay
+│         └── users
+│
+│
+├── 003_MEAN
+│    ├── 0001_MEAN_v3
+│    │    ├── deck_of_cards
+│    │    ├── js_DOM_01
+│    │    ├── js_DOM_02
+│    │    ├── js_basic_01
+│    │    ├── js_basic_02
+│    │    ├── js_hoisting
+│    │    ├── js_intermediate
+│    │    ├── js_math
+│    │    ├── js_objects
+│    │    ├── js_scroll
+│    │    ├── ninja_class_01
+│    │    ├── ninja_class_02
+│    │    └── ninja_class_03
+│    ├── 0002_Node_v3
 │    │    └── (ongoing)
-│         < Current Topics (until updated) >
+│
+│
 │
 │
 │
 │  < Potential Topics >
-│
-├── 003_MEAN
 ├── 004_Ruby
 └── 005_iOS
 ```
