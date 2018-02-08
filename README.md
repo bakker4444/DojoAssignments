@@ -1,7 +1,7 @@
 # DojoAssignments  
 <br />
 
-### This repo is for the assignment for Coding Dojo.  
+### This repo is for the assignment for Coding Dojo and personal code references.  
 ### Folder is organized in chronological order of learning.  
 
 <br />
