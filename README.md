@@ -12,6 +12,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp; Django version : 1.11.8<br />
 &nbsp;&nbsp;&nbsp;&nbsp; SQLite version : 3.20.1<br />
 <br />
+&nbsp;&nbsp;&nbsp;&nbsp; Node version : 8.9.4.<br />
+&nbsp;&nbsp;&nbsp;&nbsp; NodeMon version : 1.14.12.<br />
+<br />
 
 ### Repository Folder Structure  
 
