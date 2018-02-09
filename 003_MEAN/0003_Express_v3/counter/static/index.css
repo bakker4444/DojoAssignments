@@ -1,0 +1,12 @@
+.wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+    padding: 200px;
+    width: 500px;
+}
+
+form {
+    margin: 20px 0px;
+}

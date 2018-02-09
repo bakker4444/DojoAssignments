@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Counter</title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Counter</h1>
+            <h3><%= visitCount %> times</h3>
+            <form action="/addtwo" method="get">
+                <input type="submit" value="+2 Button">
+            </form>
+            <form action="/reset" method="get">
+                <input type="submit" value="Reset">
+            </form>
+        </div>
+        
+    </body>
+</html>
