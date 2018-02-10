@@ -25,7 +25,7 @@ io.sockets.on("connection", function (socket) {
     socket.on("posting_form", function (data) {
         console.log(data);
         socket.emit("updated_message", {
-            message_from_user: "You emitted the following information to the server: { name: " + data.name + ", location: " + data.dojo_location + ", language: " + data.fav_language + ", comment: " + data.comment + " }",
+            message_from_user: "You emitted the following information to the server: { name: '" + data.name + "', location: '" + data.dojo_location + "', language: '" + data.fav_language + "', comment: '" + data.comment + "' }",
             message_random_num: "Your lucky number emitted by the server is " + (Math.floor(Math.random() * 1000) + 1)
         });
     });
