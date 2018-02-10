@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            $(document).ready(function () {
+                var socket = io.connect();
+                $("#submit").click(function () {
+                    socket.emit("posting_form", {
+                        name: $("#name").val(),
+                        dojo_location: $("#location").val(),
+                        fav_language: $("#fav_language").val(),
+                        comment: $("textarea").val()
+                    });
+                });
+                socket.on("updated_message", function (data) {
+                    console.log(data);
+                    $(".respond_data").html("<div class='received_data'><p>" + data.message_from_user +
+                        "</p><p>" + data.message_random_num + "</p></div>");
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="respond_data">
+        </div>
+        <div class="wrapper">
+            <div class="form_contents">
+                <div class="name_row">
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="location_row">
+                    <label for="location">Dojo Location:</label>
+                    <select name="location" id="location">
+                        <option value="Seattle">Seattle</option>
+                        <option value="Silicon Valley">Silicon Valley</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="Dallas">Dallas</option>
+                        <option value="Washington D.C.">Washington D.C.</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Tulsa">Tulsa</option>
+                    </select>
+                </div>
+                <div class="fav_language_row">
+                    <label for="fav_language">Favorite Language: </label>
+                    <select name="favorite_language" id="fav_language">
+                        <option value="C/C++">C/C++</option>
+                        <option value="Python">Python</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Go">Go</option>
+                        <option value="Objective C">Objective C</option>
+                        <option value="Swift">Swift</option>
+                    </select>
+                </div>
+                <div class="comment_row">
+                    <label for="comment" id="comment_label">Comment:</label>
+                    <textarea name="comment" id="comment" cols="77" rows="20"></textarea>
+                </div>
+                <div class="submit_row">
+                    <input id="submit" type="submit" value="Button">
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>
