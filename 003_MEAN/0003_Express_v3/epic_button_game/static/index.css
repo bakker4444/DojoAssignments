@@ -1,0 +1,33 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    padding: 40px;
+}
+
+button {
+    display: inline-block;
+}
+
+#count_button {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#reset_button {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
