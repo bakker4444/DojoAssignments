@@ -4,7 +4,7 @@ var port = 5000;
 var path = require("path");
 var morgan = require("morgan");
 
-app.unsubscribe(morgan("dev"));
+app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, "./static")));
 app.set("views", path.join(__dirname, "./views"));
 app.set("view engine", "ejs");
