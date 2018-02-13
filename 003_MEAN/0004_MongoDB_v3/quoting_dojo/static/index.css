@@ -1,0 +1,42 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 30px;
+    padding: 30px;
+    width: 600px;
+}
+
+h1{
+    text-align: center;
+}
+
+#quote {
+    width: 500px;
+    padding: 10px 0px 290px 0px;
+    vertical-align: top;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin: 10px 0px;
+}
+
+.button_row, .skip_form {
+    margin: 10px;
+    text-align: center;
+}
+
+.submit_button {
+    padding: 10px;
+    width: 150px;
+}
+
+.quote_row input {
+    vertical-align: top;
+}
