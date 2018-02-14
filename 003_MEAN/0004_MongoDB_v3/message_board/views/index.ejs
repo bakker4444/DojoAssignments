@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Message Board</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="post_section">
+                <h1>The Dojo Message Board</h1>
+                <hr>
+                <form action="/" method="post">
+                    <h3>POST Section</h3>
+                    <div class="name_row">
+                        <label for="name">Name : </label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="post_row">
+                        <label for="post">Message : </label>
+                        <input type="text" name="post" id="post">
+                    </div>
+                    <div class="submit_row">
+                        <input type="submit" value="Post message">
+                    </div>
+                </form>
+            </div>
+            <div class="wall_section">
+                <% for (var xidx in post) { %>
+                    <!-- <p><%= post.length %></p> -->
+                    <h2>Name : <%= post[xidx].name %></h2>
+                    <h2>Message : <%= post[xidx].post %></h2>
+                    <% if (post[xidx].comments.length > 0) { %>
+                        <!-- <p><%= post[xidx].comments.length %></p> -->
+                        <% for (var yidx in post[xidx].comments) { %>
+                            <h4>Name : <%= post[xidx].comments[yidx].name %></h4>
+                            <h4>Comment : <%= post[xidx].comments[yidx].comment %></h4>
+                        <% } %>
+                    <% } %>
+                    <hr>
+                    <form action="/posts/<%= post[xidx]._id %>" method="post">
+                        <h3>Comment Section</h3>
+                        <div class="name_row">
+                            <label for="name">Name : </label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="comment_row">
+                            <label for="comment">Comment : </label>
+                            <input type="text" name="comment" id="comment">
+                        </div>
+                        <div class="submit_row">
+                            <input type="submit" value="Post comment">
+                        </div>
+                    </form>
+                    <hr>
+                <% } %>
+            </div>
+        </div>
+    </body>
+
+</html>
