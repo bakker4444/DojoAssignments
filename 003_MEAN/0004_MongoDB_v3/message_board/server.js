@@ -86,7 +86,7 @@ app.get("/", function (request, response) {
         } else {
             console.log(post);
             contents = {
-                post: post
+                posts: post
             }
             response.render("index", contents);
         };
