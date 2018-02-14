@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h1>Animal CRUD Dashboard</h1>
+            <% for (var x in data) { %>
+                <h3><%= Number(x)+1 %>. <%= data[x].name%></h3>
+                <!-- <h4><span></span>- ID : <%= data[x]._id %></h4>
+                <h4><span></span>- Created at : <%= data[x].createdAt %></h4>
+                <h4><span></span>- Updated at : <%= data[x].updatedAt %></h4> -->
+                <form action="/dashboard/<%= data[x]._id %>" method="get">
+                    <input type="submit" value="Detail">
+                </form>
+                <form action="/dashboard/edit/<%= data[x]._id %>" method="get">
+                    <input type="submit" value="Edit">
+                </form>
+                <form action="/dashboard/destroy/<%= data[x]._id %>" method="post">
+                    <input type="submit" value="Delete">
+                </form>
+                <hr>
+            <% } %>
+            <div class="new_animal_button_row">
+                <form action="/dashboard/new" method="get">
+                    <input type="submit" value="NEW PAGE GO!!!!">
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

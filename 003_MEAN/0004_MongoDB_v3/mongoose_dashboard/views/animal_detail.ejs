@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Animal Detail Page</title>
+        <link rel="stylesheet" href="/animal_detail.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h1>Animal Detail Page</h1>
+            <h3>Name : <%= data.name %></h3>
+            <h4><span></span>- Created at : <%= data.createdAt %></h4>
+            <h4><span></span>- Updated at : <%= data.updatedAt %></h4>
+            <div class="button_row">
+                <form action="/" method="get">
+                    <input type="submit" value="GO BACK TO MAIN PAGE!!!">
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

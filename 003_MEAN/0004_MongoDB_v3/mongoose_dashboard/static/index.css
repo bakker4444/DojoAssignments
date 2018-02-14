@@ -1,0 +1,29 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 30px;
+    padding: 30px;
+    width: 600px;
+}
+
+span {
+    display: inline-block;
+    width: 30px;
+}
+
+h3, h4 {
+    margin: 10px 0px;
+}
+
+form {
+    display: inline-block;
+}
+
+form input{
+    margin-left: 10px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Animal Edit Page</title>
+        <link rel="stylesheet" href="/edit_page.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <form action="/dashboard/<%= data.id %>" method="post">
+                <div class="name_row">
+                    <label for="name">Name : </label>
+                    <input type="text" name="name" id="name" value="<%= data.name %>">
+                </div>
+                <div class="submit_row">
+                    <input type="submit" value="LET'S GO!!!!">
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
