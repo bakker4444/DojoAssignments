@@ -29,7 +29,8 @@ var Schema = mongoose.Schema;
 var PostSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        required: true,
+        minlength: [4, "Too Short Name"]
     },
     post: {
         type: String,
@@ -51,7 +52,8 @@ var CommentSchema = new mongoose.Schema({
     },
     name: {
         type: String,
-        required: true
+        required: true,
+        minlength: [4, "Too Short Name"]
     },
     comment: {
         type: String,
@@ -101,6 +103,7 @@ app.post("/", function (request, response) {
         if (error) {
             console.log(error);
             response.send(error);
+            // response.redirect("/");
         }
         else {
             console.log("Successfully saved your data");
@@ -123,6 +126,7 @@ app.post("/posts/:id", function (request, response) {
                 if (error) {
                     console.log(error);
                     response.send(error);
+                    // response.redirect("/");
                 }
                 else {
                     response.redirect("/");
