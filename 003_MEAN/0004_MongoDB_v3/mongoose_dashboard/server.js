@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 
 
 
-// *********************  Setting  *********************
+// *****************  Express Setting  *****************
 app.use(express.static(path.join(__dirname, "./static")));
 app.set("views", path.join(__dirname, "./views"));
 app.set("view engine", "ejs");
