@@ -48,7 +48,7 @@ console.log(sayHello("9"));
 
 // 3. Optional parameters
 
-function fullName(firstName: string, lastName: string, middleName ? : string) {
+function fullName(firstName: string, lastName: string, middleName? : string) {
     // add ? right after the key called middleName --> make middleName variable as optional
     // condition to check whether middleName is exists or not
     if (middleName) {
@@ -104,7 +104,7 @@ class Ninja {
     ) {
         this.fullName = `${firstName} ${lastName}`;
     }
-    debug ? () {
+    debug?() {
         // add debug method as optional
         console.log("Console.log() is my friend.");
     }
