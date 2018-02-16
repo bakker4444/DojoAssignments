@@ -1,4 +1,4 @@
-## MongoDB / "TypeScript Bikes - OOP" Assignment
+## Angular / "TypeScript Bikes - OOP" Assignment
 
 ----
 

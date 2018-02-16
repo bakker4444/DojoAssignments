@@ -1,4 +1,4 @@
-## MongoDB / "Debugging TypeScript and ES6" Assignment
+## Angular / "Debugging TypeScript and ES6" Assignment
 
 ----
 
