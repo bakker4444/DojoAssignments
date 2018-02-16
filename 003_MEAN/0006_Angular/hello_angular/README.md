@@ -1,4 +1,4 @@
-## Angular / "TypeScript Bikes - OOP" Assignment
+## Angular / "Hello Angular" Assignment
 
 ----
 
