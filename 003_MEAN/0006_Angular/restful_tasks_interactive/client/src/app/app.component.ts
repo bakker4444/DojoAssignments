@@ -40,8 +40,15 @@ export class AppComponent implements OnInit {
     });
   };
 
-  getOneTaskWithClick(id) {
-    this.getOneTaskFromService(id);
+  getOneTaskWithClick() {
+    this.getOneTaskFromService(this.taskId);
+  }
+
+  taskId = '';
+
+  onKey(event: any) {
+    this.taskId = event.target.value;
+    console.log(this.taskId);
   }
 
 }

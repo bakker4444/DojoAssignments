@@ -33,14 +33,16 @@
   <ul style="display:inline-block">
     <li *ngFor="let task of tasks" style="text-align:initial;">
         <h2>{{ task.title }} - {{ task.description }}</h2>
+        <h5 style="color: grey;">    - ID : {{ task._id }}</h5>
       </li>
   </ul>
 
   <h1>
-    The third tasks:
+    One task with ID:
   </h1>
 
-  <input type="submit" value="Click to get one task" (click)="getOneTaskWithClick('5a87a1abc44c3f2b8ea0b558')"><br/>
+  <input (keyup)="onKey($event)"><br/>
+  <input type="submit" value="Click to get one task" (click)="getOneTaskWithClick()"><br/>
 
   <ul style="display:inline-block">
     <div *ngFor="let task of oneTask;
