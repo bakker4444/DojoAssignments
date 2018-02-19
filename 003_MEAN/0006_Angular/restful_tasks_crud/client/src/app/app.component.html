@@ -1,0 +1,39 @@
+<div>
+  <h1>New Task</h1>
+  <form (submit)="onNewTaskSubmit()">
+    <!-- <p>{{ newTask | json }}</p> -->
+    <label>Title : <input type="text" name="newTask.title" [(ngModel)] = "newTask.title"></label><br>
+    <label>Description : <input type="text" name="newTask.description" [(ngModel)] = "newTask.description"></label>
+    <input type="submit" value="Create">
+  </form>
+</div>
+
+<div style="display:inline-block; margin-right: 150px;">
+  <h1>Task List</h1>
+  <div style="display:inline-block;">
+    <div *ngFor="let task of tasks" style="border:1px solid black; border-radius:10px; width:300px; padding:10px; margin:5px;">
+      <h2>{{ task.title }}</h2>
+      <p>{{ task.description }}</p>
+      <button (click)="onEdit(task)">EDIT</button>
+      <button (click)="onDelete(task._id)">DELETE</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="editTask" style="display:inline-block; vertical-align:top; width: 400px;">
+  <h1>Edit a Task</h1>
+  <!-- <p>{{ editTask | json }}</p> -->
+  <div style="border:1px solid black; border-radius:10px; width:300px; padding:10px; margin:5px;">
+    <form (submit)="onEditSubmit()">
+      <label>Title :
+        <input type="text" name="editTask.title" [(ngModel)]="editTask.title">
+      </label>
+      <br>
+      <label>Description :
+        <input type="text" name="editTask.description" [(ngModel)]="editTask.description">
+      </label>
+      <br>
+      <input type="submit" value="EDIT">
+    </form>
+  </div>
+</div>
