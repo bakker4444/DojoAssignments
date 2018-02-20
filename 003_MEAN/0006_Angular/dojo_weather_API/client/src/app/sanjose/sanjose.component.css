@@ -1,0 +1,27 @@
+.wrapper {
+    border: 5px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.left_contents, .city_pic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.left_contents {
+    text-align: initial;
+    margin-right: 200px;
+}

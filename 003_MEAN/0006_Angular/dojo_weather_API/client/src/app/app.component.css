@@ -1,0 +1,26 @@
+* {
+    /* border : 1px solid red; */
+}
+
+.wrapper {
+    border: 5px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header {
+    border: 5px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 
+router-outlet {
+    border: 5px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+} */

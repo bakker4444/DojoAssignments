@@ -1,0 +1,15 @@
+<div *ngIf="city.name !== ''" class="wrapper">
+  <div class="header">
+    <h1>{{ city.name }}</h1>
+  </div>
+  <div class="left_contents">
+    <h2>Humidity : {{ city.main.humidity }}</h2>
+    <h2>Temperature (Average) : {{ city.main.temp }} &deg;F</h2>
+    <h2>Temperature (High) : {{ city.main.temp_max }} &deg;F</h2>
+    <h2>Temperature (Low) : {{ city.main.temp_min }} &deg;F</h2>
+    <h2>Status : {{ city.weather[0].description }} </h2>
+  </div>
+  <div class="city_pic">
+    <img src="./../../assets/washingtondc.jpeg" alt="Washington D.C. Picture">
+  </div>
+</div>
