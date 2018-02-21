@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <a [routerLink]="['']">Home</a>
+  <br>
+
+  <form >
+    <label for="name">Name:<br>
+      <input type="text" name="author.name" id="name" [(ngModel)]="author.name" *ngIf="author">
+    </label><br>
+    <input type="button" value="Cancel" (click)="reRouteToHome()">
+    <input type="submit" value="Submit" (click)="updateAuthorInfoThroughService()">
+  </form>
+
+  <div *ngIf="error" id="error_message">
+    <p>{{ error.error }}</p>
+  </div>
+  
+</div>

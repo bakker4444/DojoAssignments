@@ -1,0 +1,21 @@
+.wrapper {
+  border: darkorchid 5px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+table, td, th {
+    border: black 1px solid;
+}
+
+th, td {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    width: 50px;
+    margin: 0px 10px;
+}
