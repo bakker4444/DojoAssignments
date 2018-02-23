@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <a [routerLink]="['']">Home</a>
+  <br>
+
+  <p *ngIf="author">Provide a quote by {{ author.name }}:</p>
+  <br>
+  <form>
+    <label for="name">Name:
+      <br>
+      <!-- {{ quote | json }}<br> -->
+      <input type="text" name="quote.quote" id="name" [(ngModel)]="quote.quote">
+    </label>
+    <br>
+    <input type="button" value="Cancel" (click)="reRouteToHome()">
+    <input type="submit" value="Submit" (click)="addQuoteThroughService()">
+  </form>
+
+  <div *ngIf="error" id="error_message">
+    <p>{{ error.error }}</p>
+  </div>
+</div>

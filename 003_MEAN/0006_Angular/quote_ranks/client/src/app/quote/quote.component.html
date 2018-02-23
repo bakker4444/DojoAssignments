@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <a [routerLink]="['']">Home</a>
+  <a [routerLink]="['/write/',id]">Add a quote</a><br>
+
+  <p *ngIf="author">Quotes by {{ author.name }}</p><br>
+  <table>
+    <tr>
+      <th>Quote</th>
+      <th>Votes</th>
+      <th>Actions available</th>
+    </tr>
+    <tr *ngFor="let quote of quotes_array">
+      <td>{{ quote.quote }}</td>
+      <td>{{ quote.votes }}</td>
+      <td>
+        <button (click)="quoteVoteUp( quote )">Vote Up</button>
+        <button (click)="quoteVoteDown( quote )">Vote Down</button>
+        <button (click)="deleteOneQuote( id, quote._id )">Delete</button>
+      </td>
+    </tr>
+  </table>
+
+</div>
