@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <div class="note_div" *ngFor="let note of notes">
+    <span><p>Noted on: {{ note.createdAt | date : "MMM-dd-yyyy, hh:mm:ssa" }}</p></span>
+    <p>{{ note.note }}</p>
+    <p>&nbsp;</p>
+  </div>
+</div>
