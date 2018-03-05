@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 5px 20px;
+    width: 33%;
+}
+
+button {
+    color: white;
+    background-color: red;
+}
+
+table {
+    width: 100%;
+}

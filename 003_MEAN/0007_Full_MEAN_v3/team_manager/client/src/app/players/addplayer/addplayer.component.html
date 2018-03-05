@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <h3>Add Player</h3>
+  
+  <h4><label for="name">Player Name:</label>
+  <input type="text" name="player.name" id="name" [(ngModel)]="player.name"></h4>
+
+  <h4><label for="position">Preferred Position:</label>
+  <input type="text" name="position" id="position" [(ngModel)]="player.position"></h4>
+
+  <button (click)="addPlayer()">ADD</button>
+</div>

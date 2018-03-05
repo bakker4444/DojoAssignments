@@ -1,0 +1,45 @@
+<div class="wrapper">
+  <table *ngIf="gameid == 1">
+    <tr>
+      <th>Team Name</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let player of players">
+      <td>{{ player.name }}</td>
+      <td>
+        <button [ngClass]="{'color-red': player.games.game_1 === 'Playing'}" (click)="updatePlayerGame(player, 'Playing', 1)">Playing</button>
+        <button [ngClass]="{'color-green': player.games.game_1 === 'Not playing'}" (click)="updatePlayerGame(player, 'Not playing', 1)">Not Playing</button>
+        <button [ngClass]="{'color-yellow': player.games.game_1 === 'Undecided'}" (click)="updatePlayerGame(player, 'Undecided', 1)">Undecided</button>
+      </td>
+    </tr>
+  </table>
+  <table *ngIf="gameid == 2">
+    <tr>
+      <th>Team Name</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let player of players">
+      <td>{{ player.name }}</td>
+      <td>
+        <button [ngClass]="{'color-red': player.games.game_2 === 'Playing'}" (click)="updatePlayerGame(player, 'Playing', 2)">Playing</button>
+        <button [ngClass]="{'color-green': player.games.game_2 === 'Not playing'}" (click)="updatePlayerGame(player, 'Not playing', 2)">Not Playing</button>
+        <button [ngClass]="{'color-yellow': player.games.game_2 === 'Undecided'}" (click)="updatePlayerGame(player, 'Undecided', 2)">Undecided</button>
+      </td>
+    </tr>
+  </table>
+  <table *ngIf="gameid == 3">
+    <tr>
+      <th>Team Name</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let player of players">
+      <td>{{ player.name }}</td>
+      <td>
+        <button [ngClass]="{'color-red': player.games.game_3 === 'Playing'}" (click)="updatePlayerGame(player, 'Playing', 3)">Playing</button>
+        <button [ngClass]="{'color-green': player.games.game_3 === 'Not playing'}" (click)="updatePlayerGame(player, 'Not playing', 3)">Not Playing</button>
+        <button [ngClass]="{'color-yellow': player.games.game_3 === 'Undecided'}" (click)="updatePlayerGame(player, 'Undecided', 3)">Undecided</button>
+      </td>
+    </tr>
+  </table>
+</div>
+
