@@ -1,5 +1,5 @@
-var type: String = "Rectangle"
-var description: String = "A quadrilateral with four right angles"
+let type: String = "Rectangle"
+let description: String = "A quadrilateral with four right angles"
 
 var width: Int = 5
 var height: Double = 10.5
