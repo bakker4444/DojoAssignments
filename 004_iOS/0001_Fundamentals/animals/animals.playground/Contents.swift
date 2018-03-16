@@ -101,5 +101,3 @@ lion1.displayHealth()
 
 // Have the Lion growl
 lion1.growl()
-
-
