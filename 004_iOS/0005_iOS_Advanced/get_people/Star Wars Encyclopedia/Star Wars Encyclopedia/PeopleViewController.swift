@@ -59,6 +59,8 @@ class PeopleViewController: UITableViewController {
                             print(nextPage)
                             self.peopleDataLoading(urlInput: nextPage as! String)
                         }
+                    } else {
+                        print("\(error ?? "No next page key" as! Error)")
                     }
                 }
             } catch {
