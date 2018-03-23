@@ -115,7 +115,7 @@
                     <connections>
                         <outlet property="birthYearLabel" destination="ymr-8E-15Z" id="ea1-wC-Erg"/>
                         <outlet property="genderLabel" destination="4Px-YD-xgJ" id="NHx-zd-GhT"/>
-                        <outlet property="massLabel" destination="7uX-3R-tes" id="DXc-OO-27V"/>
+                        <outlet property="massLabel" destination="7uX-3R-tes" id="N4m-Lw-f19"/>
                         <outlet property="nameLabel" destination="nZl-ec-fwL" id="SzU-PY-cOZ"/>
                     </connections>
                 </viewController>
