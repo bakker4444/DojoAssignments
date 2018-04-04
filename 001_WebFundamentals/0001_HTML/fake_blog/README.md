@@ -4,6 +4,6 @@
 ### Repository Link  
 
 > ```https://github.com/bakker4444/fake_blog```  
-> _[Click Here](https://github.com/bakker4444/fake_blog)_  
+> _<a href="https://github.com/bakker4444/fake_blog" target="_blank">Click Here</a>_
 
 
