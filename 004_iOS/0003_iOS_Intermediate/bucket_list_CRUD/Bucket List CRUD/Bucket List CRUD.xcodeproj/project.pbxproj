@@ -58,10 +58,10 @@
 		A2E85D7420577D4C005DB962 /* Bucket List CRUD */ = {
 			isa = PBXGroup;
 			children = (
-				A2B64ADA2057836000B45E70 /* AddItemTableViewController.swift */,
-				A2B64ADE20578A1A00B45E70 /* AddItemTableViewControllerDelegate.swift */,
-				A2E85D7520577D4C005DB962 /* AppDelegate.swift */,
 				A2E85D7720577D4C005DB962 /* BucketListViewController.swift */,
+				A2B64ADE20578A1A00B45E70 /* AddItemTableViewControllerDelegate.swift */,
+				A2B64ADA2057836000B45E70 /* AddItemTableViewController.swift */,
+				A2E85D7520577D4C005DB962 /* AppDelegate.swift */,
 				A2E85D7920577D4C005DB962 /* Main.storyboard */,
 				A2E85D7C20577D4C005DB962 /* Assets.xcassets */,
 				A2E85D7E20577D4C005DB962 /* LaunchScreen.storyboard */,
