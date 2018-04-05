@@ -1,11 +1,7 @@
-## CSS / 'internet' Assignment<br />
-<br />
-submit files:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;internet.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;internet.css<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / CSS / About Python
 
+### Repository Link  
 
+> ``` https://github.com/bakker4444/internet ```  
+> _[Click Here](https://github.com/bakker4444/internet)_  
