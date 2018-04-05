@@ -1,9 +1,9 @@
-## CSS / 'Display Blocks' Assignment<br />
-<br />
-submit files :<br />
-&nbsp;&nbsp;&nbsp;&nbsp;displayblocks.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;displayblocks.css<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / CSS / Display Blocks
+
+### Repository Link  
+
+> ``` https://github.com/bakker4444/displaying_blocks ```  
+> _[Click Here](https://github.com/bakker4444/displaying_blocks)_  
+
+
