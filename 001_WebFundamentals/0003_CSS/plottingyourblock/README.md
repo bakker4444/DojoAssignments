@@ -1,9 +1,9 @@
-### CSS / "Plotting Your Blocks" Assignment
-<br />
-submit files:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;plottingyourblocks.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;plottingyourblocks.css<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / CSS / Plotting Your Blocks  
+
+### Repository Link  
+
+> ``` https://github.com/bakker4444/plotting_your_block ```  
+> _[Click Here](https://github.com/bakker4444/plotting_your_block)_  
+
+
