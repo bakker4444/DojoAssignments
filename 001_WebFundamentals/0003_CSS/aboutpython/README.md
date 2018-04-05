@@ -1,9 +1,7 @@
-## CSS / 'About Python' Assignment<br />
-<br />
-submit files :<br />
-&nbsp;&nbsp;&nbsp;&nbsp;aboutpython.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;aboutpython.css<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / CSS / About Python
+
+### Repository Link  
+
+> ``` https://github.com/bakker4444/about_python ```  
+> _[Click Here](https://github.com/bakker4444/about_python)_  
