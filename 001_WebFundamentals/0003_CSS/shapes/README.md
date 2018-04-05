@@ -1,9 +1,7 @@
-### CSS / "Shapes" Assignment
-<br />
-submit files:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;shapes.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;shapes.css<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / CSS / Shapes
+
+### Repository Link  
+
+> ``` https://github.com/bakker4444/shapes ```  
+> _[Click Here](https://github.com/bakker4444/shapes)_  
