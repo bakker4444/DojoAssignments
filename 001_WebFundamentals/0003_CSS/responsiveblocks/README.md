@@ -1,11 +1,7 @@
-## CSS / "Responsive Blocks" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / CSS / Responsive Blocks
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;responsiveblocks.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;responsiveblocks.css<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/responsive_blocks ```  
+> _[Click Here](https://github.com/bakker4444/responsive_blocks)_  
