@@ -1,8 +1,0 @@
-mkdir GitHubRepoAssignment
-cd GitHubRepoAssignment
-git init
-vi readme.md
-git status
-git log -p
-git remote add origin https://github.com/bakker4444/GitHubRepoAssignment.git
-git push -u origin master
