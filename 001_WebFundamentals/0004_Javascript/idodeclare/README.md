@@ -1,11 +1,7 @@
-## Javascript / "I Do Declare!" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / Javascript / I Do Declare!
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;idodeclare.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;idodeclare.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/i_do_declare ```  
+> _[Click Here](https://github.com/bakker4444/i_do_declare)_  
