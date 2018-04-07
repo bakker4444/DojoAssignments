@@ -1,11 +1,7 @@
-## Javascript / "Range Print" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / Javascript / Range Print
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;rangeprint.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;rangeprint.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/range_print ```  
+> _[Click Here](https://github.com/bakker4444/range_print)_  
