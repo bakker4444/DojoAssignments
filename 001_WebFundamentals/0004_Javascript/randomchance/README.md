@@ -1,11 +1,7 @@
-## Javascript / "Random Chance" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / Javascript / Random Chance
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;randomchance.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;randomchance.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/random_chance ```  
+> _[Click Here](https://github.com/bakker4444/random_chance)_  
