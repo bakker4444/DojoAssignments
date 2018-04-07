@@ -1,11 +1,7 @@
-## Javascript / "While You Wait" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / Javascript / While You Wait
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;whileyouwait.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;whileyouwait.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/while_you_wait ```  
+> _[Click Here](https://github.com/bakker4444/while_you_wait)_  
