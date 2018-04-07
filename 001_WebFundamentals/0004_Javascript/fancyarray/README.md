@@ -1,11 +1,7 @@
-## Javascript / "Fancy Array" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / Javascript / Fancy Array
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;fancyarray.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;fancyarray.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/fancy_array ```  
+> _[Click Here](https://github.com/bakker4444/fancy_array)_  
