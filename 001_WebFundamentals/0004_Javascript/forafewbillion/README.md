@@ -1,11 +1,7 @@
-## Javascript / "For a Few Billion" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / Javascript / For a Few Billion
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;forafewbillion.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;forafewbillion.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/for_a_few_billion ```  
+> _[Click Here](https://github.com/bakker4444/for_a_few_billion)_  
