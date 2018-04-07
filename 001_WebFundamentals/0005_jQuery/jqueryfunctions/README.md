@@ -1,12 +1,7 @@
-## jQuery / "jQuery Functions" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / jQuery / jQuery Functions
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;jqueryfunctions.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;jqueryfunctions.css<br />
-&nbsp;&nbsp;&nbsp;&nbsp;jqueryfunctions.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/jQuery_functions ```  
+> _[Click Here](https://github.com/bakker4444/jQuery_functions)_  
