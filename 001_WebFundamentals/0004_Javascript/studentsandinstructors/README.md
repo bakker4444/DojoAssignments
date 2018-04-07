@@ -1,11 +1,7 @@
-## Javascript / "Students and Instructors" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / Javascript / Students and Instructors
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;studentsandinstuctors.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;studentsandinstuctors.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/students_and_instructors ```  
+> _[Click Here](https://github.com/bakker4444/students_and_instructors)_  
