@@ -1,12 +1,7 @@
-## jQuery / "Users" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / jQuery / Users
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;users.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;users.css<br />
-&nbsp;&nbsp;&nbsp;&nbsp;users.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/users ```  
+> _[Click Here](https://github.com/bakker4444/users)_  
