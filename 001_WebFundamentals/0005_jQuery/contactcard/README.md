@@ -1,13 +1,7 @@
-## jQuery / "Contact Card" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / jQuery / Contact Card
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;contactcard.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;contactcard.css<br />
-&nbsp;&nbsp;&nbsp;&nbsp;contactcard.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
-<br />
+> ``` https://github.com/bakker4444/contact_card ```  
+> _[Click Here](https://github.com/bakker4444/contact_card)_  
