@@ -1,11 +1,7 @@
-## jQuery / "Debugging jQuery" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / jQuery / Debugging jQuery
 
-------
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;debugging_jquery.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;debugging_jquery.css<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/debugging_jQuery ```  
+> _[Click Here](https://github.com/bakker4444/debugging_jQuery)_  
