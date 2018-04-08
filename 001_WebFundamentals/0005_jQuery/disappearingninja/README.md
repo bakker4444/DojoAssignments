@@ -1,12 +1,7 @@
-## jQuery / "Disappering 'I have no idea" images'" Assignment
+# Coding Dojo Bootcamp Assignment
+## Web Fundamentals / jQuery / Disappearing Ninja
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;disappearingninja.html<br />
-&nbsp;&nbsp;&nbsp;&nbsp;disappearingninja.css<br />
-&nbsp;&nbsp;&nbsp;&nbsp;disappearingninja.js<br />
-<br />
-verified by https://validator.w3.org/<br />
-<br />
-no error found<br />
+> ``` https://github.com/bakker4444/disappearing_ninja ```  
+> _[Click Here](https://github.com/bakker4444/disappearing_ninja)_  
