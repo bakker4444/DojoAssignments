@@ -1,9 +1,7 @@
-## Python / "Scores and Grades" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Scores and Grades
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;scoresandgrades.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/scores_and_grades ```  
+> _[Click Here](https://github.com/bakker4444/scores_and_grades)_  
