@@ -1,9 +1,7 @@
-## Python / "Prime Number and Perfect Square" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Foo and Bar / Prime Number and Perfect Square
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;primeandperfectsquare.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/foo_and_bar ```  
+> _[Click Here](https://github.com/bakker4444/foo_and_bar)_  
