@@ -1,9 +1,7 @@
-## Python / "Coin Tosses" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Coin Tosses
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;cointosses.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/coin_tosses ```  
+> _[Click Here](https://github.com/bakker4444/coin_tosses)_  
