@@ -1,9 +1,7 @@
-## Python / "Car" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python OOP / Car
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;car.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/car ```  
+> _[Click Here](https://github.com/bakker4444/car)_  
