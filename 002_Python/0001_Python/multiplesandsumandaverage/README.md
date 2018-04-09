@@ -1,9 +1,7 @@
-## Python / "Multiples, Sum, Average" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Multiples, Sum, Average
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;multiples_sum_average.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/multiples_sum_average ```  
+> _[Click Here](https://github.com/bakker4444/multiples_sum_average)_  
