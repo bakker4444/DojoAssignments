@@ -1,9 +1,7 @@
-## Python / "Stars" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Stars
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;stars.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/stars ```  
+> _[Click Here](https://github.com/bakker4444/stars)_  
