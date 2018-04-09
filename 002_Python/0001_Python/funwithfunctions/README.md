@@ -1,9 +1,7 @@
-## Python / "Fun with Functions" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Fun with Functions
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;funwithfunctions.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/fun_with_functions ```  
+> _[Click Here](https://github.com/bakker4444/fun_with_functions)_  
