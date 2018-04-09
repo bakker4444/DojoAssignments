@@ -1,9 +1,7 @@
-## Python / "Making and Reading from Dictionaries" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Making and Reading from Dictionaries
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;makingandreadingfromdictionaries.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/making_and_reading_from_dictionaries ```  
+> _[Click Here](https://github.com/bakker4444/making_and_reading_from_dictionaries)_  
