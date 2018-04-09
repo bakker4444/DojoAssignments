@@ -1,9 +1,7 @@
-## Python / "Multiplication Table" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Multiplication Table
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;multiplicationtable.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/multiplication_table ```  
+> _[Click Here](https://github.com/bakker4444/multiplication_table)_  
