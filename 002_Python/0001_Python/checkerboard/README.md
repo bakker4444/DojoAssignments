@@ -1,9 +1,7 @@
-## Python / "Checkerboard" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Checkerboard
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;checkerboard.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/checkerboard ```  
+> _[Click Here](https://github.com/bakker4444/checkerboard)_  
