@@ -1,9 +1,7 @@
-## Python / "Names" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Names
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;names.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/names ```  
+> _[Click Here](https://github.com/bakker4444/names)_  
