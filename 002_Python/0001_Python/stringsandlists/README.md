@@ -1,9 +1,7 @@
-## Python / "Strings and Lists" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python / Strings and Lists
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;stringsandlists.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/string_and_list_practice ```  
+> _[Click Here](https://github.com/bakker4444/string_and_list_practice)_  
