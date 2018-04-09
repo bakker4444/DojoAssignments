@@ -1,9 +1,7 @@
-## Python / "Store" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Python OOP / Store
 
-----
+### Repository Link  
 
-**submit files:**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;store.py<br />
-<br />
-Python version : 2.7.14<br />
-<br />
+> ``` https://github.com/bakker4444/store ```  
+> _[Click Here](https://github.com/bakker4444/store)_  
