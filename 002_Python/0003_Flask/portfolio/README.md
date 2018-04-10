@@ -1,19 +1,7 @@
-## Flask / "Portfolio" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Portfolio
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── portfolio.py
-    └── templates/
-            ├── about.html
-            ├── index.html
-            └── projects.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/portfolio_flask ```  
+> _[Click Here](https://github.com/bakker4444/portfolio_flask)_  
