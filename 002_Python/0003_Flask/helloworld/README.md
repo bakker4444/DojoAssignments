@@ -1,17 +1,7 @@
-## Flask / "Hello World" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Hello World
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── helloworld.py
-    └── templates/
-            └── index.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/hello_world_flask ```  
+> _[Click Here](https://github.com/bakker4444/hello_world_flask)_  
