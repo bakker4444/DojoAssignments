@@ -1,25 +1,7 @@
-## Flask / "Disappearing Ninja" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Disappearing Ninja
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── disappearingninja.py
-    ├── static/
-    │   └── image/
-    │       ├── donatello.jpg
-    │       ├── leonardo.jpg
-    │       ├── michelangelo.jpg
-    │       ├── notapril
-    │       ├── raphael.jpg
-    │       └── tmnt.png
-    └── templates/
-        └── index.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/disappearing_ninja_flask ```  
+> _[Click Here](https://github.com/bakker4444/disappearing_ninja_flask)_  
