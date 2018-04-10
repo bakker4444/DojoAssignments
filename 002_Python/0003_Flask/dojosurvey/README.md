@@ -1,22 +1,7 @@
-## Flask / "Dojo Survey" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Dojo Survey
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── dojosurvey.py
-    ├── static/
-    │   └── css/
-    │       ├── index.css
-    │       └── submitinfo.css
-    └── templates/
-        ├── index.html
-        └── submitinfo.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/dojo_survey ```  
+> _[Click Here](https://github.com/bakker4444/dojo_survey)_  
