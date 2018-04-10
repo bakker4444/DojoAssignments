@@ -1,20 +1,7 @@
-## Flask / "Counter" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Counter
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── counter.py
-    ├── static/
-    │   └── css/
-    │       └── index.css
-    └── templates/
-        └── index.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/counter_flask ```  
+> _[Click Here](https://github.com/bakker4444/counter_flask)_  
