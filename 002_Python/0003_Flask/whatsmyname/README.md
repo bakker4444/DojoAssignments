@@ -1,17 +1,7 @@
-## Flask / "What's my name?" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / What's my name?
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── whatsmyname.py
-    └── templates/
-            └── index.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/whats_my_name ```  
+> _[Click Here](https://github.com/bakker4444/whats_my_name)_  
