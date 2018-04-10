@@ -1,22 +1,7 @@
-## Flask / "Landing Page" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Landing Page
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── landingpage.py
-    ├── static/
-    │   └── css/
-    │       └── dojos.css 
-    └── templates/
-        ├── dojos.html
-        ├── index.html
-        └── ninjas.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/landing_page ```  
+> _[Click Here](https://github.com/bakker4444/landing_page)_  
