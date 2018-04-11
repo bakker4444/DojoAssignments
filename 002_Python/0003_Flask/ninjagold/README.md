@@ -1,20 +1,7 @@
-## Flask / "Ninja Gold" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Ninja Gold
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── ninjagold.py
-    ├── static/
-    │   └── css/
-    │       └── index.css
-    └── templates/
-        └── index.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/ninja_gold_flask ```  
+> _[Click Here](https://github.com/bakker4444/ninja_gold_flask)_  
