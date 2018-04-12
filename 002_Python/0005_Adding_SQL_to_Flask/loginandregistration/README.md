@@ -1,30 +1,7 @@
-## Adding SQL to Flask / "Login and Registration" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Adding SQL to Flask / Login and Registration
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── loginandregistration.py
-    ├── mysqlconnection.py
-    ├── users.sql
-    ├── static/
-    │   └── css/
-    │       ├── login.css
-    │       ├── loginsuccess.css
-    │       ├── registration.css
-    │       └── registrationsuccess.css
-    └── templates/
-        ├── login.html
-        ├── loginsuccess.html
-        ├── registration.html
-        └── registrationsuccess.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-MySQL version: 5.7.21<br />
-MySQL Workbench version : 6.3.10.<br />
-<br />
+> ``` https://github.com/bakker4444/login_and_registration_flask ```  
+> _[Click Here](https://github.com/bakker4444/login_and_registration_flask)_  
