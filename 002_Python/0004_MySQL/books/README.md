@@ -1,15 +1,7 @@
-## MySQL / "Books" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / MySQL / Books
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    └── books.mwb
-
-```
-
-<br />
-MySQL Workbench version : 6.3.10.<br />
-<br />
+> ``` https://github.com/bakker4444/books_mysql ```  
+> _[Click Here](https://github.com/bakker4444/books_mysql)_  
