@@ -1,24 +1,7 @@
-## Adding SQL to Flask / "Full Friends" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Adding SQL to Flask / Full Friends
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── server.py
-    ├── mysqlconnection.py
-    ├── friends.sql
-    ├── static/
-    │   └── css/
-    │       └── index.css
-    └── templates/
-        └── index.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-MySQL version: 5.7.21<br />
-MySQL Workbench version : 6.3.10.<br />
-<br />
+> ``` https://github.com/bakker4444/full_friends_flask ```  
+> _[Click Here](https://github.com/bakker4444/full_friends_flask)_  
