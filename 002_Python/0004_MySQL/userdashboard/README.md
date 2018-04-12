@@ -1,15 +1,7 @@
-## MySQL / "User Dashboard" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / MySQL / User Dashboard
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    └── userdashboard.mwb
-
-```
-
-<br />
-MySQL Workbench version : 6.3.10.<br />
-<br />
+> ``` https://github.com/bakker4444/user_dashboard_mysql ```  
+> _[Click Here](https://github.com/bakker4444/user_dashboard_mysql)_  
