@@ -1,21 +1,7 @@
-## Flask / "Registration Form" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / Flask / Registration Form
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    ├── registrationform.py
-    ├── static/
-    │   └── css/
-    │       └── index.css
-    └── templates/
-        ├── index.html
-        └── success.html
-```
-
-<br />
-Python version : 2.7.14<br />
-Flask version : 0.12.2<br />
-<br />
+> ``` https://github.com/bakker4444/registration_form_flask ```  
+> _[Click Here](https://github.com/bakker4444/registration_form_flask)_  
