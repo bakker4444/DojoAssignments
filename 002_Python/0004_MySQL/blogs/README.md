@@ -1,15 +1,7 @@
-## MySQL / "Blogs" Assignment
+# Coding Dojo Bootcamp Assignment
+## Python, Django / MySQL / Blogs
 
-----
+### Repository Link  
 
-**submit files:**<br />
-
-```
-    .
-    └── blogs.mwb
-
-```
-
-<br />
-MySQL Workbench version : 6.3.10.<br />
-<br />
+> ``` https://github.com/bakker4444/blogs_mysql ```  
+> _[Click Here](https://github.com/bakker4444/blogs_mysql)_  
