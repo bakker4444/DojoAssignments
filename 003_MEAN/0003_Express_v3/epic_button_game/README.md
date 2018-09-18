@@ -1,28 +1,8 @@
-## Express / "Epic Button Game" Assignment
+# Coding Dojo Bootcamp Assignment
+## MEAN / Express / Epic Button Game
 
-----
+### Assignment details
 
-**submit files:**<br />
+For this assignment, build the app described in the mockup below using Express and sockets.  Your app should serve only a single view, index.ejs.  **Any time the epic button is pushed, the count should update on every user who is connected via sockets.**  This should happen in real time.  If a user clicks the reset button, the count should reset to 0 for every user as well!
 
-```
-    .
-    ├── server.js
-    ├── package.json
-    ├── package-lock.json
-    ├── static/
-    │   └── index.css
-    └── views/
-        └── index.ejs
-
-```
-
-<br />
-<version>
-Node : 8.9.4<br />
-NodeMon : 1.14.12<br />
-Express : 4.16.2<br />
-Ejs : 2.5.7<br />
-Morgan : 1.9.0<br />
-jQuery : 3.3.1<br />
-<br />
-
+Think about the events the client will need to listen for and the events the server must listen for.  Map out the emitters and listeners you will need before you start coding.  Use a variable on the server to keep track of how many times the button has been clicked.

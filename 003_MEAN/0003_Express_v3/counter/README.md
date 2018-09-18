@@ -1,29 +1,16 @@
-## Express / "Counter" Assignment
+# Coding Dojo Bootcamp Assignment
+## MEAN / Express / Counter
 
-----
+### Assignment details
 
-**submit files:**<br />
+Build an Express application that counts the number of times the root route ('/') has been viewed by the user.
 
-```
-    .
-    ├── server.js
-    ├── package.json
-    ├── package-lock.json
-    ├── static/
-    │   └── index.css
-    └── views/
-        └── index.ejs
+This assignment is to test your understanding of session.
 
-```
+**Ninja Level 1**
 
-<br />
-<version>
-Node : 8.9.4<br />
-NodeMon : 1.14.12<br />
-Express : 4.16.2<br />
-Ejs : 2.5.7<br />
-Body-parser : 1.18.2<br />
-Express-session : 1.15.6<br />
-morgan : 1.9.0<br />
-<br />
+Add a +2 button underneath the counter that reloads the page and increments counter by 2. Add another route to handle this functionality.
 
+**Ninja Level 2**
+
+Add a reset button that resets the counter back to 1. Add another route to handle this functionality.
