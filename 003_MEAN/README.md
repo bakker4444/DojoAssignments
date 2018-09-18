@@ -1,7 +1,4 @@
-## MEAN Stack Assignment Folder  
-<br />
-&nbsp;&nbsp;&nbsp;&nbsp; Node version : 8.9.4.<br />
-&nbsp;&nbsp;&nbsp;&nbsp; NodeMon version : 1.14.12.<br />
+## MEAN Stack Assignment Folder
 <br />
 
 ```

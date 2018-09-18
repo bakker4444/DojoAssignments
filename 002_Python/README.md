@@ -1,8 +1,6 @@
-## Python Assignment Folder  
-<br />
-&nbsp;&nbsp;&nbsp;&nbsp; Python version : 2.7.14<br />
-&nbsp;&nbsp;&nbsp;&nbsp; Flask version : 0.12.2<br />
-<br />
+## Python Assignment Folder
+
+
 
 ```
 .
