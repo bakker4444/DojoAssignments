@@ -1,20 +1,13 @@
-## Node / "Landging Page" Assignment
+# Coding Dojo Bootcamp Assignment
+## MEAN / Node / Landging Page
 
-----
+### Assignment details
 
-**submit files:**<br />
+Create a small node server capable of handling the following **request URLs**:
 
-```
-    .
-    ├── app.js
-    ├── dojo.html
-    ├── index.html
-    └── ninjas.html
+* `localhost:6789/`    This route should serve a view file called index.html and display a greeting.
+* `localhost:6789/ninjas`    This route should serve a view file called ninjas.html and display information about ninjas.
+* `localhost:6789/dojos/new`    This route should serve a view file called dojos.html and have a form (don't worry about where the form should be sent to).
 
-```
 
-<br />
-Node version : 8.9.4.<br />
-NodeMon version : 1.14.12.<br />
-<br />
-
+If the URL is anything other than the ones above, have an error page load saying that the URL requested is not available.
